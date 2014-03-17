@@ -1,0 +1,109 @@
+/* header section*/
+img{
+  display: block;
+  width: 100%;
+  max-width: 1500px; 
+  margin: 0 auto;
+  border-radius: 10px 10px 10px 10px;
+  padding-top: 20px; 
+}
+
+/* fixed menu */
+nav {
+  position:fixed;
+  color:white; 
+  line-height:30px;
+  letter-spacing:1px; 
+  width:100%;
+  margin-top:-10px;
+}
+
+nav h6{
+  background: white;
+  margin: 0px;
+  text-align: right;
+  color:black;
+  padding: 10px 10px 0 0;
+}
+
+nav a{
+  font-family: 'Lato', sans-serif; 
+  color:black;
+  text-decoration: none;
+  padding: 0 10px 0 10px; 
+  font-size: 15px;
+}
+nav a:hover{
+  color: red;
+}
+
+/*About Section*/
+#avatar{
+  padding-top: 10px;
+  max-width: 250px;
+  text-align: center;
+}
+
+#about{
+  padding-top: 20px;
+  font-family: 'Lato', sans-serif; color:black;
+}
+
+#about h1, article{
+  padding-top: 50px;
+  text-align: center;
+  max-width: 400px;
+}
+
+#about h3{
+  padding-top: 0px;
+}
+
+#about article{
+  padding-bottom: 600px;
+}
+
+/*Footer*/
+footer{
+  background: black;
+  height: 100px;
+  border-radius: 0px 0px 5px 5px ;  
+}
+
+.icons{
+  display:inline-block;
+  width: 50px; 
+  height: 50px; 
+  padding-top: 5px;
+}
+
+/* Mobil View*/
+@media (max-width: 480px) {
+
+  nav h6{
+    text-align: center;
+  }      
+  nav ul{
+    text-align: center;
+  }
+  nav li{   
+    padding:5px;
+  }
+
+  #about h1, article{
+    max-width: 300px;
+  }
+
+  .icons{
+    width: 40px;
+    border-radius: 5px;
+  }
+
+  h2{
+    text-align: center;
+  }
+
+  footer {
+    height: 80px;
+  }
+}
