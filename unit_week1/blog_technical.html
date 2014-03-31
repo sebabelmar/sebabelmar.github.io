@@ -4,7 +4,7 @@
 <head>
 
     <title>Seba Belmar</title>
-    <link rel="stylesheet" type="text/css" href="stylesheets/index.css">
+    <link rel="stylesheet" type="text/css" href="stylesheets/blogs.css">
     <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
 
 </head>
@@ -16,9 +16,8 @@
     <nav>
         <h6 > 
           <a href="#top">UP</a> |
-          <a href="http://sebabelmar.github.io">About</a> | 
+          <a href="../index.html">Home</a> | 
           <a href="#footer">Contact</a> |
-          <a href="#">Blog</a> |
           <a href="http://kptura-sbp.tumblr.com/">Photography</a>
         </h6>
     </nav>&nbsp;&nbsp;&nbsp;
@@ -27,13 +26,95 @@
       <img src="images/headersignature.png">
     </header>
 
+    <div id="space">space</div>
 
       <section id="about">
           
           <nav id="sidebar">
             <a href="http://www.sebabelmar.com")><img id="avatar" src="images/avatar.png"></a>
-            <h1> Seba's Blog </h1>
+            <h1>Technical Blog </h1>
           </nav>
+<!-- BLOG Posts here -->
+          <article id="content">
+            <h3>Loops</h3>
+            <br>
+            If there is something computer programmers like to do not do, 
+            it is to repeat the same thing several times.
+            That is why from the very beginning this was kind of the whole point of creating computers. 
+            Why calculating this over and over again?? what if we teach a dog how to do it. 
+            Well instead of dog training, humans created computers.
+            It was easy to fall in an infinite loop back in the day and end up unplugging the dog to stop it. 
+            Today Ruby makes looping easy and intuitive.
+
+            LOOPS: execute the same block of code a specific number of times.
+
+            Syntax of some loops
+
+            While: executes code while conditional is true.
+
+            while 
+            conditional [do]    
+              code 
+            end
+            ----------------------
+            code while condition
+            ----------------------
+            begin    
+              code  
+            end while conditional
+
+
+            Until: executes code while conditional is false.
+
+            until conditional [do]    
+            code 
+            end
+            -----------------------
+            code until conditional   
+            -----------------------
+            begin    
+            code 
+            end until conditional
+
+            For: executes code once for each element in the expression.
+
+            for variable [, variable ...] in expression [do]    
+              code 
+            end
+
+
+            The challenge here is to define the specific number of times that we want 
+            to execute and obviously what code the want to be executed.
+
+            Which one to use will depend on how do you like to set the conditional 
+            and just execute some code (while, until), if you are going to loop over a 
+            Hash or an Array without creating  new scope for local variables (for) or 
+            if you want to execute related to a sequence of numbers (for).
+
+            The statement above is just an interpretation you can experiment with them, 
+            but as important it is to understand how this different loops work is to 
+            understand what iterator variables and the conditionals are:
+
+            Defining and understanding iterators;
+            An iterator is a variable that will increase or decrees in order to count
+             how many times the code has been repeated.
+            This variable usually define equal to 0 or 1 outside the loop and increase =+ 1 
+            every time the code is executed. Is not weird to use it counting backwards or
+            counting in a different scale. But the final idea is to use this in the conditional 
+            that stops the loop and some times in the code that you want to execute i (iterators) times.
+
+            Defining and understanding conditional;
+            Loops go on until the conditional is true or false. This is why you use the 
+            iterator and a conditional when setting up a loop.
+            On loops like each they stop when they have no more elements to pass into the
+             code so we can say they have an automatic break.
+            Break, redo, retry, next and retry_if are statements that you can use inside 
+            your loops in order to control its performance giving you some independence from 
+            the conditional.
+
+
+          </article>
+
 
           <article id="content">
             <h3>JavaScript != JAVA</h3>
@@ -63,46 +144,6 @@
           </article>
 
           <article id="content">
-            <h3>Values === Hapiness</h3>
-            </br>
-            I see happiness as way to go, as a state of mind that I can choose and not as something that I have to achieve. I can feel exited, motivated and think that, that is happiness or I can miss my family and think that Im feeling unhappy.</br>
-            </br>
-            But in order be or go happy, I think I have to create the conditions to that. 
-            Creating those conditions makes me feel proud and by the pillars that sustain my pride I can go to sleep satisfied.
-            I can remember moments of my life that all those factors came together and collide in one event or day, like my wedding.  Or like the day I knew my wife was pregnant or the first time I heard my babys heart beating.</br>
-            </br>
-            This are some of values that help me create conditions to go happy in life:</br>
-            </br>
-            Wisdom</br>
-            Responsibility</br>
-            Close Relationships</br>
-            Community</br>
-            Creativity</br>
-            Nature</br>
-
-            </br>
-            I feel that RESPONSIBILITY is one of the values that keeps me calm, focus, secure and let me go happy. When I assume the responsibility of my decisions I can die happy doing what Ive decided to do. I know that Ive chosen the right path that leads me to where my heart wants to go. I might be wrong, but I have that milestone to go back to, and re evaluate if Im in the right path. All this because there was a point back there in time, that I consciously decided to load my back pack with that RESPONSIBILITY and it will be always available for me.</br>
-            </br>
-            One thing is to say, and other one is to do. I try but actually I live those values in a scale 1-5 like this:</br>
-            </br>
-            Wisdom 3</br>
-            Responsibility 4</br>
-            Close Relationships 4</br>
-            Community 3</br>
-            Creativity 4</br>
-            Nature 4</br>
-            </br>
-            Because there are some values that is hard to work on or to actually achieve, plus 5 is perfection and I dont have to be perfect :)</br>
-            </br>
-            </br>
-            Do you want to know the last topic that someone asked me advice on?</br>
-            </br>
-            YOGA; one of my friend was going to different YOGA classes, different teachers and different kinds of YOGA. He asked me what was my opinion on Kundalini Yoga.
-            I’ve practice a lot of Kundalini with different teachers from different parts of the world. So we had a nice open conversation about it and he got my perspective on that topic.
-
-          </article>
-
-          <article id="content">
             <h3>Comparing Web sites</h3>
             <br>
             <h4><a href="https://vimeo.com/">Vimeo</a></h4>
@@ -123,7 +164,6 @@
             I use this website every week to check on schedule, classes, teachers and if there are any cancelation. Thats why is one of my favorites; they update it every week at least two times. And they have a Mobil version!<br>
             But their colors scheme is terrible. It stress me out, I dont like vising this website but I have to. I think it has basic design and it doesnt engage. For me it doesnt communicate their values as a yoga studio.<br>
             The way they display information is has a huge lack of elegancy.
-
           </article>
 
       </section>
