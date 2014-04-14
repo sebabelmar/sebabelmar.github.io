@@ -1,7 +1,3 @@
-*{
-  font-family: 'Lato', sans-serif; color:black;
-}
-
 body {
   width: 900px;
   margin-left: auto;
@@ -16,18 +12,21 @@ nav {
   letter-spacing:1px; 
   width:900px;
 }
-ul { 
-list-style-type:none;
-text-align: right; 
-margin:0; 
-padding-top:10px; 
+ul {
+  background-color: white; 
+  list-style-type:none;
+  text-align: right; 
+  margin:0; 
+  padding-top:10px; 
 } 
-li { 
-display:inline; 
+
+li {
+  background-color: white; 
+  display:inline;
+  color: black; 
 } 
 
 li a{
-
   font-size: 20px;
   font-family: 'Lato', sans-serif; 
   color:black;
@@ -36,7 +35,7 @@ li a{
   padding-left: 5px; 
 }
 
-li a:hover{
+nav li a:hover{
   color: red;
 }
 
@@ -49,12 +48,13 @@ li a:hover{
   margin-top: 10px;
 }
 .pic_and_title h1{
-  margin-left: 60px; 
+  font-family: 'Lato', sans-serif; 
+  margin-left: 10px; 
 }
 
 #avatar{
   width: 200px;
-  margin: 10px 0 0 55px;
+  margin: 10px 0 0 10px;
 }
 
 /*story*/
@@ -64,16 +64,18 @@ li a:hover{
   position: relative;
   float: right;
   display: inline-block;
-  width: 65%;
+  width: 650px;
   vertical-align: top;
   background: #F7F7F7;
   border-radius: 5px;
   padding: 10px;
+  font-family: 'Lato', sans-serif; 
 }
 
 h1{
   text-align: center;
   font-size: 30px;
+  color: #C7A557;
 }
 
 p{
@@ -82,11 +84,12 @@ p{
 
 /*Footer*/
 footer{
-  position:absolute;
-  bottom:3px;
+  clear:both;
+  bottom: 0;
+  margin-bottom: 3px;
+  height: 80px;
   width:900px;
   background: black;
-  height: 80px;
   border-radius: 0px 0px 15px 15px;  
 }
 

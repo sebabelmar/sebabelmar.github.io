@@ -1,7 +1,3 @@
-*{
-  font-family: 'Lato', sans-serif; color:black;
-}
-
 body {
   width: 900px;
   margin-left: auto;
@@ -16,7 +12,7 @@ nav {
   letter-spacing:1px; 
   width:900px;
 }
-ul {
+nav ul {
   background-color: white; 
   list-style-type:none;
   text-align: right; 
@@ -24,12 +20,13 @@ ul {
   padding-top:10px; 
 } 
 
-li {
+nav li {
   background-color: white; 
-  display:inline; 
+  display:inline;
+  color: black; 
 } 
 
-li a{
+nav li a{
   font-size: 20px;
   font-family: 'Lato', sans-serif; 
   color:black;
@@ -42,18 +39,24 @@ nav li a:hover{
   color: red;
 }
 
-
-
 /*Sidebar*/
 .sidebar{
   position: fixed;
   float: left;
-  margin-left: 50px
+  width:200;
+  margin-left: 30px;
 }
 
 #avatar{
-  margin: 15px 0 20px 20px;
   width: 130px;
+  margin: 20px 0 20px 15px;
+}
+
+.sidebar h1{
+  font-size: 30px;
+  font-family: 'Lato', sans-serif; 
+  text-align: center;
+  color: #C7A557;
 }
 
 .sidebar ul{
@@ -63,10 +66,17 @@ nav li a:hover{
 .sidebar li{
   text-align: left;
   display: block;
+  margin-bottom: 5px;
 }
 
 .sidebar li a {
-    font-size: 18px;
+  color: black;
+  text-decoration: none;
+  font-family: 'Lato', sans-serif; 
+  font-size: 18px;
+}
+.sidebar a:hover{
+  color: #C7A557;
 }
 
 /*story*/
@@ -76,27 +86,27 @@ nav li a:hover{
   margin-bottom: 10px;
   position: relative;
   float: right;
-  width: 65%;
+  width: 650px;
   background: #F7F7F7;
   border-radius: 5px;
   padding: 10px;
+  font-family: 'Lato', sans-serif; 
 }
 
 .post h1{
-  color: #C7A557;
-}
-li a:hover{
-  color: #C7A557;
-} 
-
-
-h1{
   text-align: center;
   font-size: 30px;
+  font-family: 'Lato', sans-serif; 
+  color: #C7A557;
 }
 
-p{
+.post p{
   text-align: justify;
+}
+
+.post a{
+  color: #C7A557;
+  text-decoration: none;
 }
 
 /*Footer*/
