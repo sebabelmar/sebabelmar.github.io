@@ -1,11 +1,11 @@
-/* header section*/
-img{
-  display: block;
-  width: 100%;
-  max-width: 1500px; 
-  margin: 0 auto;
-  border-radius: 10px 10px 10px 10px;
-  padding-top: 20px; 
+*{
+  font-family: 'Lato', sans-serif; color:black;
+}
+
+body {
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* fixed menu */
@@ -14,96 +14,109 @@ nav {
   color:white; 
   line-height:30px;
   letter-spacing:1px; 
-  width:100%;
-  margin-top:-10px;
+  width:900px;
 }
+ul { 
+list-style-type:none;
+text-align: right; 
+margin:0; 
+padding-top:10px; 
+} 
+li { 
+display:inline; 
+} 
 
-nav h6{
-  background: white;
-  margin: 0px;
-  text-align: right;
-  color:black;
-  padding: 10px 10px 0 0;
-}
+li a{
 
-nav a{
+  font-size: 20px;
   font-family: 'Lato', sans-serif; 
   color:black;
   text-decoration: none;
-  padding: 0 10px 0 10px; 
-  font-size: 15px;
+  letter-spacing:1.5px;
+  padding-left: 5px; 
 }
-nav a:hover{
+
+li a:hover{
   color: red;
 }
 
-/*About Section*/
+/*pic and title section*/
+
+.pic_and_title{
+  text-align: center;
+  position: relative;
+  float: left;
+  margin-top: 10px;
+}
+.pic_and_title h1{
+  margin-left: 60px; 
+}
+
 #avatar{
-  padding-top: 10px;
-  max-width: 250px;
+  width: 200px;
+  margin: 10px 0 0 55px;
+}
+
+/*story*/
+.story{
+  margin-top: 80px;
+  margin-bottom: 5px;
+  position: relative;
+  float: right;
+  display: inline-block;
+  width: 65%;
+  vertical-align: top;
+  background: #F7F7F7;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+h1{
   text-align: center;
+  font-size: 30px;
 }
 
-#about{
-  padding-top: 20px;
-  font-family: 'Lato', sans-serif; color:black;
-}
-
-#about h1, article{
-  padding-top: 50px;
-  text-align: center;
-  max-width: 400px;
-}
-
-#about h3{
-  padding-top: 0px;
-}
-
-#about article{
-  padding-bottom: 600px;
+p{
+  text-align: justify;
 }
 
 /*Footer*/
 footer{
+  position:absolute;
+  bottom:3px;
+  width:900px;
   background: black;
-  height: 100px;
-  border-radius: 0px 0px 5px 5px ;  
+  height: 80px;
+  border-radius: 0px 0px 15px 15px;  
 }
 
 .icons{
   display:inline-block;
   width: 50px; 
   height: 50px; 
-  padding-top: 5px;
+  margin-top: 15px;
 }
 
 /* Mobil View*/
 @media (max-width: 480px) {
 
   nav h6{
+    display: block;
     text-align: center;
   }      
-  nav ul{
-    text-align: center;
-  }
   nav li{   
     padding:5px;
-  }
-
-  #about h1, article{
-    max-width: 300px;
   }
 
   .icons{
     width: 40px;
     border-radius: 5px;
-  }
-
-  h2{
-    text-align: center;
+    margin-top: 20px;
   }
 
   footer {
-    height: 80px;
+    width: 450px;
+    height: 5em;
+    margin-left: 0.5em;
   }
 }
