@@ -113,6 +113,7 @@ text-decoration:none;
 
 .post img {
 border: solid black 1px;
+border-radius: 5px;
 width:650px;  
 }
 
