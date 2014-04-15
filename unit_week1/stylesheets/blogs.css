@@ -44,7 +44,7 @@ color:red;
 position:fixed;
 float:left;
 width:200px;
-margin-left:30px;
+margin-left:20px;
 }
 
 #avatar {
@@ -125,7 +125,7 @@ border-radius:0 0 15px 15px;
 display:inline;
 width:50px;
 height:50px;
-padding-top:50px;
+padding-top:600px;
 }
 
 @media (max-width: 480px) {
@@ -135,12 +135,12 @@ nav {
 width:450px;
 }
 
-nav ul {
+nav ul{
 text-align:center;
 }
 
 /*SIDEBAR*/
-.sidebar {
+.sidebar{
 position:relative;
 float:center;
 width:480px;
@@ -148,7 +148,7 @@ margin:90px 0 0 0;
 z-index: -1;
 }
 
-#avatar {
+#avatar{
 width:130px;
 margin:20px 0 20px 180px;
 }
@@ -163,8 +163,8 @@ font-size:20px;
 
 /*POST*/
 #post{
-  position: relative;
-  float: center;
+  position:relative;
+  float:center;
   width:428px;
   margin: 20px 5px 10px 5px;
 }
