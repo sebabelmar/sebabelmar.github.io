@@ -1,152 +1,184 @@
 body {
-  width: 900px;
-  margin-left: auto;
-  margin-right: auto;
+width:900px;
+margin-left:auto;
+margin-right:auto;
+}
+/*NAV BAR*/
+nav {
+position:fixed;
+color:#FFF;
+line-height:30px;
+letter-spacing:1px;
+width:900px;
 }
 
-/* fixed menu */
-nav {
-  position:fixed;
-  color:white; 
-  line-height:30px;
-  letter-spacing:1px; 
-  width:900px;
-}
 nav ul {
-  background-color: white; 
-  list-style-type:none;
-  text-align: right; 
-  margin:0; 
-  padding-top:10px; 
-} 
+background-color:#FFF;
+list-style-type:none;
+text-align:right;
+padding-top:10px;
+margin:0;
+}
 
 nav li {
-  background-color: white; 
-  display:inline;
-  color: black; 
-} 
-
-nav li a{
-  font-size: 20px;
-  font-family: 'Lato', sans-serif; 
-  color:black;
-  text-decoration: none;
-  letter-spacing:1.5px;
-  padding-left: 5px; 
+background-color:#FFF;
+display:inline;
+color:#000;
 }
 
-nav li a:hover{
-  color: red;
+nav li a {
+font-size:20px;
+font-family:'Lato', sans-serif;
+color:#000;
+text-decoration:none;
+letter-spacing:1.5px;
+padding-left:5px;
 }
 
-/*Sidebar*/
-.sidebar{
-  position: fixed;
-  float: left;
-  width:200;
-  margin-left: 30px;
+nav li a:hover {
+color:red;
 }
 
-#avatar{
-  width: 130px;
-  margin: 20px 0 20px 15px;
+/*SIDE BAR*/
+.sidebar {
+position:fixed;
+float:left;
+width:200px;
+margin-left:30px;
 }
 
-.sidebar h1{
-  font-size: 30px;
-  font-family: 'Lato', sans-serif; 
-  text-align: center;
-  color: #C7A557;
+#avatar {
+width:130px;
+margin:20px 0 20px 15px;
 }
 
-.sidebar ul{
-  list-style-type:none;
+.sidebar h1 { 
+font-size:30px;
+font-family:'Lato', sans-serif;
+text-align:center;
+color:#C7A557;
 }
 
-.sidebar li{
-  text-align: left;
-  display: block;
-  margin-bottom: 5px;
+.sidebar ul {
+list-style-type:none;
+}
+
+.sidebar li {
+text-align:left;
+display:block;
+margin-bottom:5px;
 }
 
 .sidebar li a {
-  color: black;
-  text-decoration: none;
-  font-family: 'Lato', sans-serif; 
-  font-size: 18px;
-}
-.sidebar a:hover{
-  color: #C7A557;
+color:#000;
+text-decoration:none;
+font-family:'Lato', sans-serif;
+font-size:18px;
 }
 
-/*story*/
-.post{
-  z-index: -1;
-  margin-top: 80px;
-  margin-bottom: 10px;
-  position: relative;
-  float: right;
-  width: 650px;
-  background: #F7F7F7;
-  border-radius: 5px;
-  padding: 10px;
-  font-family: 'Lato', sans-serif; 
+.sidebar a:hover {
+color:#C7A557;
 }
 
-.post h1{
-  text-align: center;
-  font-size: 30px;
-  font-family: 'Lato', sans-serif; 
-  color: #C7A557;
+/*POST*/
+.post {
+z-index:-1;
+margin-top:80px;
+margin-bottom:10px;
+position:relative;
+float:right;
+width:650px;
+background:#F7F7F7;
+border-radius:5px;
+font-family:Lato, sans-serif;
+padding:10px;
 }
 
-.post p{
-  text-align: justify;
+.post h1 {
+text-align:center;
+font-size:30px;
+font-family:'Lato', sans-serif;
+color:#C7A557;
 }
 
-.post a{
-  color: #C7A557;
-  text-decoration: none;
+.post p {
+text-align:justify;
 }
 
-/*Footer*/
-footer{
-  clear:both;
-  bottom: 0;
-  margin-bottom: 3px;
-  height: 80px;
-  width:900px;
-  background: black;
-  border-radius: 0px 0px 15px 15px;  
+.post a {
+color:#C7A557;
+text-decoration:none;
 }
 
-.icons{
-  display:inline-block;
-  width: 50px; 
-  height: 50px; 
-  margin-top: 15px;
+/*FOOTER*/
+footer {
+clear:both;
+bottom:0;
+margin-bottom:3px;
+height:80px;
+width:900px;
+background:#000;
+border-radius:0 0 15px 15px;
 }
 
-/* Mobil View*/
+.icons {
+display:inline;
+width:50px;
+height:50px;
+padding-top:50px;
+}
+
 @media (max-width: 480px) {
+/* define mobile specific styles come here */
+/*NAVBAR*/
+nav {
+width:450px;
+}
 
-  nav h6{
-    display: block;
-    text-align: center;
-  }      
-  nav li{   
-    padding:5px;
-  }
+nav ul {
+text-align:center;
+}
 
-  .icons{
-    width: 40px;
-    border-radius: 5px;
-    margin-top: 20px;
-  }
+/*SIDEBAR*/
+.sidebar {
+position:relative;
+float:center;
+width:480px;
+margin:90px 0 0 0;
+z-index: -1;
+}
 
-  footer {
-    width: 450px;
-    height: 5em;
-    margin-left: 0.5em;
-  }
+#avatar {
+width:130px;
+margin:20px 0 20px 180px;
+}
+
+.sidebar li {
+text-align:center;
+}
+
+.sidebar li a {
+font-size:20px;
+}
+
+/*POST*/
+#post{
+  position: relative;
+  float: center;
+  width:428px;
+  margin: 20px 5px 10px 5px;
+}
+
+/*FOOTER*/
+footer {
+margin: 0px 5px 10px 5px;  
+height:50px;
+width:450px;
+}
+
+.icons {
+display:inline;
+width:10px;
+}
+
 }
