@@ -103,12 +103,17 @@ color:#C7A557;
 }
 
 .post p {
+border: solid black 1px;
 text-align:justify;
 }
 
 .post a {
 color:#C7A557;
 text-decoration:none;
+}
+
+.post img {
+width:650px;  
 }
 
 /*FOOTER*/
