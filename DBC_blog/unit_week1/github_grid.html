@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>GITHUB Grid</title>
+<link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+<style type="text/css">
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background: url(images/noise_light-grey.jpg);
+	font-family: 'Helvetica Neue', arial, sans-serif;
+	font-weight: 200;
+}
+
+h1 {
+	font-family: 'Oswald', sans-serif;
+	font-size: 4em;
+	font-weight: 400;
+	margin: 0 0 20px;
+	text-align: center;
+	text-shadow: 1px 1px 0 #fff, 2px 2px 0 #bbb;
+}
+
+h2 {
+	font-family: 'Oswald', sans-serif;
+	font-size: 2em;
+	font-weight: 400;
+	margin: 0 0 20px;
+	text-align: center;
+	text-shadow: 1px 1px 0 #fff, 2px 2px 0 #bbb;
+}
+
+hr {
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #fff;
+	margin: 25px 0;
+	clear: both;
+}
+.centered {
+	text-align: center;
+}
+.wrapper {
+	width: 100%;
+	padding: 30px 0;
+}
+.container {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+/* ----- Image grids ----- */
+ul.rig {
+	list-style: none;
+	font-size: 0px;
+	margin-left: -2.5%; /* should match li left margin */
+}
+ul.rig li {
+	display: inline-block;
+	padding: 10px;
+	margin: 0 0 2.5% 2.5%;
+	background: #fff;
+	border: 1px solid #ddd;
+	font-size: 16px;
+	font-size: 1rem;
+	vertical-align: top;
+	box-shadow: 0 0 5px #ddd;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+ul.rig li img {
+	max-width: 100%;
+	height: auto;
+	margin: 0 0 10px;
+}
+ul.rig li h3 {
+	margin: 0 0 5px;
+	color: #005580;
+}
+ul.rig li p {
+	font-size: .9em;
+	line-height: 1.5em;
+	color: #999;
+}
+
+/* class for 4 columns */
+ul.rig.columns-4 li {
+	width: 22.5%; /* this value + 2.5 should = 25% */
+}
+
+img{
+	border-radius: 100%;
+	border: 2px solid grey;
+}
+img:hover{
+	border: 2px solid #005580;
+}
+
+@media (max-width: 1199px) {
+	.container {
+		width: auto;
+		padding: 0 10px;
+	}
+}
+
+@media (max-width: 480px) {
+	ul.grid-nav li {
+		display: block;
+		margin: 0 0 5px;
+	}
+	ul.grid-nav li a {
+		display: block;
+	}
+	ul.rig {
+		margin-left: 0;
+	}
+	ul.rig li {
+		width: 100% !important; /* over-ride all li styles */
+		margin: 0 0 20px;
+	}
+}
+</style>
+</head>
+
+<body>
+
+<div class="wrapper">
+	<div class="container">
+		<h1>GITHUB Grid</h1>
+		<h2>Fence Lizards - SF 2014</h2>
+		
+		<div id="four-columns" class="grid-container">
+			<ul class="rig columns-4">
+				<li>
+					<center>
+						<a href="https://github.com/amdziuk"><img src="images/adam.jpg" /></a>
+						<h3>Adam Dziuk</h3>
+					</center>
+				</li>
+				<li>
+					<center>
+						<a href="http://www.github.com/aryssdal"><img src="images/adamr.jpg" /></a>
+						<h3>Adam Ryssdal</h3>
+					</center>
+				</li>
+				<li>
+					<center>
+						<a href="https://github.com/ocktagon"><img src="images/aki.jpg" /></a>
+						<h3>Aki Suzuki</h3>
+					</center>
+				</li>
+				<li>
+					<center>
+						<a href="https://github.com/azywong"><img src="images/alison.jpg" /></a>
+						<h3>Alison Wong</h3>
+					</center>
+				</li>
+				<li>
+					<center>
+						<a href="https://github.com/Adnard-Kod"><img src="images/andra.jpg" /></a>
+						<h3>Andra Lally</h3>
+					</center>
+				</li>
+				<li>
+					<center>
+						<a href="https://github.com"><img src="images/andrew.jpg" /></a>
+						<h3>Andrew McDonald</h3>
+					</center>
+				</li>
+				<li>
+					<center>
+						<a href="https://github.com/anup4f82"><img src="images/anup.jpg" /></a>
+						<h3>Anup Pradhan</h3>
+					</center>
+				</li>
+				<li>
+					<center>
+						<a href="https://github.com/cjcjameson"><img src="images/cj.jpg" /></a>
+						<h3>CJ Jameson</h3>
+					</center>
+				</li>
+				<li>
+					<center>
+						<a href="https://github.com/aubuchcl"><img src="images/chris.jpg" /></a>
+						<h3>Christopher Aubuchon</h3>
+					</center>
+				</li>
+				<li>
+					<center>
+						<a href="https://github.com/ClarkGH"><img src="images/clark.jpg" /></a>
+						<h3>Clark Hinchcliff</h3>
+					</center>
+				</li>
+				<li>
+					<center>
+						<a href="https://github.com/djohnson0610"><img src="images/devin.jpg" /></a>
+						<h3>Devin A Johnson</h3>
+					</center>
+				</li>
+				<li>
+					<center>
+						<a href="https://github.com/oddomatic"><img src="images/dominik.jpg" /></a>
+						<h3>Dominick Oddo</h3>
+					</center>
+				</li>
+				<li>
+					<center>
+						<a href="https://github.com/kevinkang88"><img src="images/kevin.jpg" /></a>
+						<h3>Dong Kevin Kang</h3>
+					</center>
+				</li>
+				<li>
+					<center>
+						<a href="https://github.com/smileyface525"><img src="images/eiko.jpg" /></a>
+						<h3>Eiko Seino</h3>
+					</center>
+				</li>
+				<li>
+					<center>
+						<a href="https://github.com/mceoin"><img src="images/eoin.jpg" /></a>
+						<h3>Eoin McMillan</h3>
+					</center>
+				</li>
+				<li>
+					<center>
+						<a href="https://github.com"><img src="images/eric.jpg" /></a>
+						<h3>Eric Wehrli</h3>
+					</center>
+				</li>
+				<li>
+					<center>
+						<a href="https://github.com/bootcoder"><img src="images/hunter.jpg" /></a>
+						<h3>Hunter T. Chapman</h3>
+					</center>
+				</li>
+				<li>
+					<center>
+						<a href="https://github.com/Misterdamon"><img src="images/jacob.jpg" /></a>
+						<h3>Jacob Persing</h3>
+					</center>
+				</li>
+				<li>
+					<center>
+						<a href="https://github.com/jpabico"><img src="images/jon.jpg" /></a>
+						<h3>Jon Pabico</h3>
+					</center>
+				</li>
+				<li>
+					<center>
+						<a href="https://github.com/Parjam"><img src="images/param.jpg" /></a>
+						<h3>Parjam Davoody</h3>
+					</center>
+				</li>
+				<li>
+					<center>
+						<a href="https://github.com/daivssamuel997"><img src="images/sam.jpg" /></a>
+						<h3>Samuel Davis</h3>
+					</center>
+				</li>			
+				<li>
+					<center>
+						<a href="https://github.com/sebabelmar"><img src="images/seba.jpg" /></a>
+						<h3>Sebastian Belmar</h3>
+					</center>
+				</li>
+				<li>
+					<center>
+						<a href="https://github.com/shawn01001"><img src="images/shawn.jpg" /></a>
+						<h3>Shawn Seibert</h3>
+					</center>
+				</li>				
+				<li>
+					<center>
+						<a href="https://github.com/wbbushy"><img src="images/william.jpg" /></a>
+						<h3>William Bushyhead</h3>
+					</center>
+				</li>
+				<li>
+					<center>
+						<a href="https://github.com/rubberyuzu"><img src="images/yuzu.jpg" /></a>
+						<h3>Yuzu Saijo</h3>
+					</center>
+				</li>
+				<li>
+					<center>
+						<a href="https://github.com/ckammerl"><img src="images/christiane.jpg" /></a>
+						<h3>Christiane Kammerl</h3>
+					</center>
+				</li>
+			</ul>
+		</div>
+		<!--/#four-columns-->
+		
+	</div>
+	<!--/.container-->
+</div>
+<!--/.wrapper-->
+
+</body>
+</html>
