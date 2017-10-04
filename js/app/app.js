@@ -28,7 +28,7 @@ var experience = new Vue({
 });
 
 // Experience title links modals configurations
-var experience = new Vue({
+var project = new Vue({
 
   el: '#projects',
 
