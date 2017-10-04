@@ -102,7 +102,7 @@
                   <span><a href="#meModal2" data-toggle="modal">software engineer</a></span> |
                   <span><a href="#meModal3" data-toggle="modal">educator</a></span>
                 </h2>
-                  <img src="img/avatar2.jpg" class="img-responsive img-rounded img-centered" id="bio" alt="Responsive image">
+                  <img src="img/family.jpg" class="img-responsive img-centered" id="bio" alt="Responsive image">
                 <p>
                   Full stack developer with back end experience in Ruby on Rails, NodeJS, .Net, MongoDB, Postgres plus front end in AngularJS, jQuery, D3 and Javascript in general.
                   <br><br>
@@ -115,6 +115,7 @@
     </section>
 
     <!-- Portfolio Grid Section -->
+    <!-- Vue tiles instaces -->
     <div id='tiles'>
       <section id="portfolio" class="content-section text-center">
           <div class="container">
@@ -179,7 +180,8 @@
 
 
 
-    <!-- vue modals -->
+    <!-- VUE MODALS -->
+    <!-- Vue experience Instance-->
     <div id="experience">
       <template v-for="experience in experiences">
         <div class="portfolio-modal modal fade" v-bind:id="experience.id" tabindex="-1" role="dialog" aria-hidden="true">
@@ -222,6 +224,7 @@
 
 
     <!-- Portfolio Modals -->
+    <!-- Vue project Instance-->
     <div id="projects">
       <template v-for="project in projects">
           <div class="portfolio-modal modal fade" v-bind:id="project.id" tabindex="-1" role="dialog" aria-hidden="true">
