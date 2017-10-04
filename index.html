@@ -114,69 +114,36 @@
         </div>
     </section>
 
-    <div id="app">
-      {{ message }}
-    </div>
-
-    <div id="app-2">
-      <span v-bind:title="message">
-        Hover your mouse over me for a few seconds
-        to see my dynamically bound title!
-      </span>
-    </div>
-
-    <div id="app-3">
-      <span v-if="seen">Now you see me</span>
-    </div>
-
-
-
     <!-- Portfolio Grid Section -->
-    <section id="portfolio" class="content-section text-center">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Portfolio</h2>
-                    <h3>Old Projects (Updating...)</h3>
-                    <br><br>
+    <div id='tiles'>
+      <section id="portfolio" class="content-section text-center">
+          <div class="container">
+              <div class="row">
+                  <div class="col-lg-12 text-center">
+                      <h2>Portfolio</h2>
+                      <h3>Old Projects (Updating...)</h3>
+                      <br><br>
+                  </div>
+              </div>
+              <div v-for="set in tilesSets()">
+                <div class="row">
+                  <template v-for="tile in set">
+                      <div class="col-sm-4 portfolio-item">
+                          <a v-bind:href="tile.id" class="portfolio-link" data-toggle="modal">
+                              <div class="caption">
+                                  <div class="caption-content">
+                                      <i class="fa fa-search-plus fa-3x"></i>
+                                  </div>
+                              </div>
+                              <img v-bind:src="tile.picture" class="img-responsive portfolio-img" alt="">
+                          </a>
+                      </div>
+                  </template>
                 </div>
-            </div>
-            <center>
-            <div class="row">
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/foremly-logo.png" class="img-responsive portfolio-img" alt="">
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/pigly-logo.png" class="img-responsive portfolio-img" alt="">
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/sweetsinatra-logo.png" class="img-responsive portfolio-img" alt="">
-                    </a>
-                </div>
-            </div>
-            </center>
-        </div>
-    </section>
+              </div>
+          </div>
+      </section>
+    </div>
 
     <!-- Contact Section -->
     <section id="contact" class="container content-section text-center">
