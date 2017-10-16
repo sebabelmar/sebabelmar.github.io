@@ -116,7 +116,7 @@
 
     <!-- Portfolio Grid Section -->
     <!-- Vue tiles instaces -->
-    <div id='tiles'>
+    <div id='projects'>
       <section id="portfolio" class="content-section text-center">
           <div class="container">
               <div class="row">
@@ -125,23 +125,23 @@
                       <br><br>
                   </div>
               </div>
-              <div v-for="set in tilesSets()">
+              <div v-for="set in projectSets()">
                 <div class="row">
-                  <template v-for="tile in set">
+                  <template v-for="project in set">
                       <div class="col-sm-4 portfolio-item">
-                          <a v-bind:href="tile.id" class="portfolio-link" data-toggle="modal">
+                          <a v-bind:href="'#' + project.id" class="portfolio-link" data-toggle="modal">
                               <div class="caption">
                                   <div class="caption-content">
                                       <!-- <i class="fa fa-search-plus fa-3x"></i> -->
                                       <div style='margin-top:-1%; font-size:18px; color:white; text-transform:lowercase;'>
                                         <i class="fa fa-cogs" style='padding: 5px;' aria-hidden="true"></i>
-                                        <p>{{tile.type}}</p>
+                                        <p>{{project.type}}</p>
                                         <i class="fa fa-code" style='padding: 5px;' aria-hidden="true"></i>
-                                        <p>{{tile.techs}}</p>
+                                        <p>{{project.techs}}</p>
                                       </div>
                                   </div>
                               </div>
-                              <img v-bind:src="tile.tile_img" class="img-responsive portfolio-img" alt="">
+                              <img v-bind:src="project.tile_img" class="img-responsive portfolio-img" alt="">
                           </a>
                       </div>
                   </template>
@@ -149,6 +149,40 @@
               </div>
           </div>
       </section>
+
+
+      <template v-for="project in projects">
+        <div class="portfolio-modal modal fade" v-bind:id="project.id" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <h2 class="black-font">{{project.title}}</h2>
+                                <hr class="star-primary">
+                                <img v-bind:src="project.hero_img" class="img-responsive img-centered" alt="">
+                                <div v-html="project.content">
+                                </div>
+                                <ul class="list-inline item-details">
+                                    <li>
+                                        <strong><a v-bind:href="project.url">GitHub</a>
+                                        </strong>
+                                    </li>
+                                </ul>
+                                <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </template>
     </div>
 
     <!-- Contact Section -->
@@ -222,44 +256,6 @@
                 </div>
             </div>
         </div>
-      </template>
-    </div>
-
-
-    <!-- Portfolio Modals -->
-    <!-- Vue project Instance-->
-    <div id="projects">
-      <template v-for="project in projects">
-          <div class="portfolio-modal modal fade" v-bind:id="project.id" tabindex="-1" role="dialog" aria-hidden="true">
-              <div class="modal-content">
-                  <div class="close-modal" data-dismiss="modal">
-                      <div class="lr">
-                          <div class="rl">
-                          </div>
-                      </div>
-                  </div>
-                  <div class="container">
-                      <div class="row">
-                          <div class="col-lg-8 col-lg-offset-2">
-                              <div class="modal-body">
-                                  <h2 class="black-font">{{project.title}}</h2>
-                                  <hr class="star-primary">
-                                  <img v-bind:src="project.hero_img" class="img-responsive img-centered" alt="">
-                                  <div v-html="project.content">
-                                  </div>
-                                  <ul class="list-inline item-details">
-                                      <li>
-                                          <strong><a v-bind:href="project.url">GitHub</a>
-                                          </strong>
-                                      </li>
-                                  </ul>
-                                  <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-          </div>
       </template>
     </div>
 

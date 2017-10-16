@@ -45,18 +45,107 @@ var project = new Vue({
   data: {
     projects: [
       {
-        id:'portfolioModal1',
-        title: 'Foremly',
+        id: 'portfolioModal1',
+        title: 'Actua',
+        content: "<p class='black-font'>"+
+                  "Foremly is an expenses report app. This app broke my MS Excel barriers and now I’m happily parsing Bank Statement to help small business in their costing processes.<br>"+
+                  "This app was the first full stack experience I ever had and it gave me that fantastic tipping point that I was waiting for. I went from an problem to an idea, from an idea to a plan and then I saw all together on the browser."+
+                  "Some fun code is the  <a href='https://github.com/sebabelmar/foremly_api/blob/master/lib/bank_statement.rb'>Bank Statement Parser</a> accounts. Now what is going to be fun is the  <a href='https://github.com/sebabelmar/FOREMLY/blob/DATA_BASE/db/schema.rb'>Data Dase Structure</a> that will allow clients and jobs parameterization."+
+                  "You will find this project in 3 repos because I built an API and APP as part of DBC phase II final project and now I’m combing all into one Ruby on Rails App.</p>",
+        hero_img: 'img/portfolio/actua.png',
+        tile_img: 'img/portfolio/actua-logo.png',
+        type: 'Web App',
+        techs: 'Ruby on Rails | MongoDB | SQL',
+        url: ''
+      },
+      {
+        id:'portfolioModal2',
+        title: 'Mason Bottle',
         content:"<p class='black-font'>"+
-                  "<br> This app broke my MS Excel barriers and now I’m happily parsing Bank Statement to help small business in their costing processes.<br>"+
+                  "Foremly is an expenses report app. This app broke my MS Excel barriers and now I’m happily parsing Bank Statement to help small business in their costing processes.<br>"+
                   "This app was the first full stack experience I ever had and it gave me that fantastic tipping point that I was waiting for. I went from an problem to an idea, from an idea to a plan and then I saw all together on the browser."+
                   "Some fun code is the  <a href='https://github.com/sebabelmar/foremly_api/blob/master/lib/bank_statement.rb'>Bank Statement Parser</a> accounts. Now what is going to be fun is the  <a href='https://github.com/sebabelmar/FOREMLY/blob/DATA_BASE/db/schema.rb'>Data Dase Structure</a> that will allow clients and jobs parameterization."+
                   "You will find this project in 3 repos because I built an API and APP as part of DBC phase II final project and now I’m combing all into one Ruby on Rails App.</p>",
         hero_img: 'img/portfolio/foremly.png',
+        tile_img: 'img/portfolio/mason-bottle-logo.png',
+        type: '',
+        techs: "",
+        url: ""
+
+      },
+      {
+        id:'portfolioModal3',
+        title: 'Momentto',
+        content:"<p class='black-font'>"+
+                  "Foremly is an expenses report app. This app broke my MS Excel barriers and now I’m happily parsing Bank Statement to help small business in their costing processes.<br>"+
+                  "This app was the first full stack experience I ever had and it gave me that fantastic tipping point that I was waiting for. I went from an problem to an idea, from an idea to a plan and then I saw all together on the browser."+
+                  "Some fun code is the  <a href='https://github.com/sebabelmar/foremly_api/blob/master/lib/bank_statement.rb'>Bank Statement Parser</a> accounts. Now what is going to be fun is the  <a href='https://github.com/sebabelmar/FOREMLY/blob/DATA_BASE/db/schema.rb'>Data Dase Structure</a> that will allow clients and jobs parameterization."+
+                  "You will find this project in 3 repos because I built an API and APP as part of DBC phase II final project and now I’m combing all into one Ruby on Rails App.</p>",
+        hero_img: 'img/portfolio/foremly.png',
+        tile_img: 'img/portfolio/momentto-logo.png',
+        type: '',
+        techs: "",
         url: ""
       },
       {
-        id:'portfolioModal2',
+        id:'portfolioModal4',
+        title: 'Education & Experiments',
+        content:"<p class='black-font'>"+
+                  "Foremly is an expenses report app. This app broke my MS Excel barriers and now I’m happily parsing Bank Statement to help small business in their costing processes.<br>"+
+                  "This app was the first full stack experience I ever had and it gave me that fantastic tipping point that I was waiting for. I went from an problem to an idea, from an idea to a plan and then I saw all together on the browser."+
+                  "Some fun code is the  <a href='https://github.com/sebabelmar/foremly_api/blob/master/lib/bank_statement.rb'>Bank Statement Parser</a> accounts. Now what is going to be fun is the  <a href='https://github.com/sebabelmar/FOREMLY/blob/DATA_BASE/db/schema.rb'>Data Dase Structure</a> that will allow clients and jobs parameterization."+
+                  "You will find this project in 3 repos because I built an API and APP as part of DBC phase II final project and now I’m combing all into one Ruby on Rails App.</p>",
+        picture: 'img/portfolio/foremly.png',
+        hero_img: 'img/portfolio/foremly.png',
+        tile_img: 'img/portfolio/e-e-logo.png',
+        type: '',
+        techs: "",
+        url: ""
+      },
+      {
+        id:'portfolioModal5',
+        title: 'Enventure',
+        content:"<p class='black-font'>"+
+                  "Foremly is an expenses report app. This app broke my MS Excel barriers and now I’m happily parsing Bank Statement to help small business in their costing processes.<br>"+
+                  "This app was the first full stack experience I ever had and it gave me that fantastic tipping point that I was waiting for. I went from an problem to an idea, from an idea to a plan and then I saw all together on the browser."+
+                  "Some fun code is the  <a href='https://github.com/sebabelmar/foremly_api/blob/master/lib/bank_statement.rb'>Bank Statement Parser</a> accounts. Now what is going to be fun is the  <a href='https://github.com/sebabelmar/FOREMLY/blob/DATA_BASE/db/schema.rb'>Data Dase Structure</a> that will allow clients and jobs parameterization."+
+                  "You will find this project in 3 repos because I built an API and APP as part of DBC phase II final project and now I’m combing all into one Ruby on Rails App.</p>",
+        hero_img: 'img/portfolio/foremly.png',
+        tile_img: 'img/portfolio/enventure.png',
+        type: '',
+        techs: '',
+        url: ''
+      },
+      {
+        id:'portfolioModal6',
+        title: 'Foremly',
+        content:"<p class='black-font'>"+
+                  "Foremly is an expenses report app. This app broke my MS Excel barriers and now I’m happily parsing Bank Statement to help small business in their costing processes.<br>"+
+                  "This app was the first full stack experience I ever had and it gave me that fantastic tipping point that I was waiting for. I went from an problem to an idea, from an idea to a plan and then I saw all together on the browser."+
+                  "Some fun code is the  <a href='https://github.com/sebabelmar/foremly_api/blob/master/lib/bank_statement.rb'>Bank Statement Parser</a> accounts. Now what is going to be fun is the  <a href='https://github.com/sebabelmar/FOREMLY/blob/DATA_BASE/db/schema.rb'>Data Dase Structure</a> that will allow clients and jobs parameterization."+
+                  "You will find this project in 3 repos because I built an API and APP as part of DBC phase II final project and now I’m combing all into one Ruby on Rails App.</p>",
+        hero_img: 'img/portfolio/foremly.png',
+        tile_img: 'img/portfolio/enventure.png',
+        type: '',
+        techs: '',
+        url: ''
+      },
+      {
+        id:'portfolioModal7',
+        title: 'Foremly',
+        content:"<p class='black-font'>"+
+                  "Foremly is an expenses report app. This app broke my MS Excel barriers and now I’m happily parsing Bank Statement to help small business in their costing processes.<br>"+
+                  "This app was the first full stack experience I ever had and it gave me that fantastic tipping point that I was waiting for. I went from an problem to an idea, from an idea to a plan and then I saw all together on the browser."+
+                  "Some fun code is the  <a href='https://github.com/sebabelmar/foremly_api/blob/master/lib/bank_statement.rb'>Bank Statement Parser</a> accounts. Now what is going to be fun is the  <a href='https://github.com/sebabelmar/FOREMLY/blob/DATA_BASE/db/schema.rb'>Data Dase Structure</a> that will allow clients and jobs parameterization."+
+                  "You will find this project in 3 repos because I built an API and APP as part of DBC phase II final project and now I’m combing all into one Ruby on Rails App.</p>",
+        hero_img: 'img/portfolio/foremly.png',
+        tile_img: 'img/portfolio/foremly-logo.png',
+        type: '',
+        techs: '',
+        url: ''
+      },
+      {
+        id:'portfolioModal8',
         title: 'Pigly',
         content:"<p class='black-font'>"+
           "Pigly is a Ruby on Rails - Mobile First app that allows users to find the best dishes on any San Francisco restaurant menu. <br>"+
@@ -65,100 +154,36 @@ var project = new Vue({
           "Some fun code I wrote are the <a href='https://github.com/sebabelmar/pigly/blob/master/app/models/age_bubble.rb'>Model</a>, <a href='https://github.com/sebabelmar/pigly/blob/master/app/controllers/age_bubble_controller.rb'>Controller </a> and <a href='https://github.com/sebabelmar/pigly/blob/master/app/views/restaurants/show.html.erb'>JavaScript</a> (lines 127-269) logic that integrates the <a href='http://www.d3js.org'> D3.js</a> Bubble Plot visualization into the app."+
           "</p>",
         hero_img: 'img/portfolio/pigly.png',
-        url: ""
+        tile_img: 'img/portfolio/pigly-logo.png',
+        type: '',
+        techs: '',
+        url: ''
       },
       {
-        id:'portfolioModal3',
+        id:'portfolioModal9',
         title: 'SweetSinatra',
         content:"<p class='black-font'>Sweet Sinatra was the winner of the July 2014 DBC Hackathon Best Back End prize. <br>"+
-        "In just 10 hours we built a gem that creates an app skeleton with scaffold options for Sinatra. <br>  The idea was to emulate Rails on top of Sinatra."+
-        "We have work to do still because its documentation is pending plus it needs refactoring and bug fixing. <br>"+
-        "The entire gem logic was written on one file <a href='https://github.com/sebabelmar/SweetSinatra/blob/master/lib/sweetsinatra.rb'>sweetsinatra.rb</a>. This was a nice challenge and gave us the oportunity to understand how Rails structure works."+
-        "</p>",
+          "In just 10 hours we built a gem that creates an app skeleton with scaffold options for Sinatra. <br>  The idea was to emulate Rails on top of Sinatra."+
+          "We have work to do still because its documentation is pending plus it needs refactoring and bug fixing. <br>"+
+          "The entire gem logic was written on one file <a href='https://github.com/sebabelmar/SweetSinatra/blob/master/lib/sweetsinatra.rb'>sweetsinatra.rb</a>. This was a nice challenge and gave us the oportunity to understand how Rails structure works."+
+          "</p>",
         hero_img: 'img/portfolio/sweetsinatra.png',
-        url: ""
-      }
-    ]
-  }
-});
-
-var tiles = new Vue({
-
-  el: '#tiles',
-
-  data: {
-    tiles: [
-      {
-        id:'#portfolioModal1',
-        title:'Seba',
-        tile_img:'img/portfolio/actua-logo.png',
-        language:''
-      },
-      {
-        id:'#portfolioModal1',
-        title:'Seba',
-        tile_img:'img/portfolio/mason-bottle-logo.png',
-        language:''
-      },
-      {
-        id:'#portfolioModal1',
-        title:'Seba',
-        tile_img:'img/portfolio/momentto-logo.png',
-        language:''
-      },
-      {
-        id:'#portfolioModal1',
-        title:'Seba',
-        tile_img:'img/portfolio/e-e-logo.png',
-        language:''
-      },
-      {
-        id:'#portfolioModal1',
-        title:'Seba',
-        tile_img:'img/portfolio/enventure.png',
-        language:''
-      },
-      {
-        id:'#portfolioModal1',
-        title:'Seba',
-        tile_img:'img/portfolio/g-c-logo.png',
-        language:''
-      },
-      {
-        id:'#portfolioModal1',
-        title:'Seba',
-        tile_img:'img/portfolio/foremly-logo.png',
-        language:'',
-        type: 'web app',
-        language: 'sinatra | postgres'
-      },
-      {
-        id:'#portfolioModal2',
-        title:'Seba',
-        tile_img:'img/portfolio/pigly-logo.png',
-        language:'',
-        type: 'web app',
-        language: 'ruby on rails | D3.js | postgres'
-      },
-      {
-        id:'#portfolioModal3',
-        title:'Seba',
-        tile_img:'img/portfolio/sweetsinatra-logo.png',
-        language:'',
-        type: 'ruby gem',
-        language: 'ruby | sinatra'
+        tile_img: 'img/portfolio/sweetsinatra-logo.png',
+        type: '',
+        techs: '',
+        url: ''
       }
     ]
   },
 
   methods: {
-    tilesSets: function(){
+    projectSets: function(){
       var width = 3
-      return this.tiles.reduce(function (rows, key, index) {
+      return this.projects.reduce(function (rows, key, index) {
           return (index % width == 0 ? rows.push([key])
             : rows[rows.length-1].push(key)) && rows;
         }, []);
     }
   }
 
-})
+});
