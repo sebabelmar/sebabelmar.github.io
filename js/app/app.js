@@ -153,9 +153,9 @@ var project = new Vue({
         id:'portfolioModal7',
         title: 'Foremly',
         content: "<p class='black-font'>"+
-                    "Foremly is an expenses report app. Built with a solar power company in mind were I use to help with in the costing process, Foremely can distribute lists of expenses by cards number."+
-                    "<br><br>After a bank statement parsing routine each card holder, foreman, can login to their accounts and classify expenses by project and cost units. Giving the accounting team precise information. Some fun code is the Bank Statement Parser."+
-                    "<br><br>You will find this project in 2 repos because I built an API and APP as part of DBC phase II final project."+
+                    "Foremly is an expenses report app. Built with a <a href='https://www.greenearthenergyinc.com/'>solar power company</a> in mind were I use to help with in the costing process, Foremely can distribute lists of expenses by credit cards number."+
+                    "<br><br>After a bank statement parsing routine each card holder, foreman, can login to their accounts and classify expenses by project and cost units. Giving the accounting team precise information."+
+                    "<br><br>You will find this project in 2 repos because I built an <a href='https://github.com/sebabelmar/foremly_api'>API</a> and <a href='https://github.com/sebabelmar/foremly_app'>APP</a> as part of DBC phase II final project."+
                   "</p>",
         hero_img: 'img/portfolio/foremly.png',
         tile_img: 'img/portfolio/foremly-logo.png',
@@ -178,7 +178,7 @@ var project = new Vue({
         type: 'web app',
         techs: 'Ruby on Rails | Javascript | Postgres | Facebook API | GoogleMaps API',
         gitub_button: true,
-        url: ''
+        url: 'https://github.com/sebabelmar/pigly'
       },
       {
         id:'portfolioModal9',
