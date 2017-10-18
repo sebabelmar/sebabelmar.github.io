@@ -68,9 +68,9 @@ var project = new Vue({
         content: "<p class='black-font'>"+
                     "<br><br>As the lead e-commerce engineer I redesigned and developed Mason Bottle’s <a href='https://themes.shopify.com/'>Shopify store theme</a>. Using <a href='https://shopify.github.io/Timber/'>Timber</a> and <a href='https://help.shopify.com/themes/liquid'>Liquid</a> (Shopify’s template language written in Ruby) I was able give our store our own look and add customizable features."+
                     "<br><br>These are a few example of the features built:"+
-                    "<br><br><a href=''>Smart Welcome Optin pop-up</a>"+
-                    "<br><a href=''>Blog Tile Board</a>"+
-                    "<br><a href=''>Shop Our Instagram Grid</a>"+
+                    "<br><br><a href='https://github.com/masonbottle/smartPopUp'>Smart Pop Up for Optin From</a>"+
+                    "<br><a href='https://github.com/masonbottle/instaShop'>Shop Our Instagram Grid</a>"+
+                    "<br><a href='https://masonbottle.com/blogs/news'>Blog Tile Board</a>"+
                     "<br><br>In order to maintain and create features for Shopify, besides using Liquid, this project requires heavy use of Javascript in different flavors, mainly <a href='https://jquery.com/'>jQuery</a>. The code for this project is hosted in a Github private repo."+
                   "</p>",
         hero_img: 'img/portfolio/masonbottle.png',
@@ -169,9 +169,8 @@ var project = new Vue({
         title: 'Pigly',
         content:  "<p class='black-font'>"+
                   "Pigly is a Ruby on Rails - Mobile First app that allows users to find the best dishes on any San Francisco restaurant menu. <br>"+
-                  "Using the Locu API we display local restaurants and their current menu items for users to vote on, positive or negative. Google maps helps users find restaurants in the city and Facebook API let's them share their activity with friends and family. Data visualization with D3 creates a fun experience to learn more about restaurant demographics and item ranking. <br>"+
-                  "DevBootcamp Students developed Pigly in 7 days.<br>"+
-                  "Some fun code I wrote are the <a href='https://github.com/sebabelmar/pigly/blob/master/app/models/age_bubble.rb'>Model</a>, <a href='https://github.com/sebabelmar/pigly/blob/master/app/controllers/age_bubble_controller.rb'>Controller </a> and <a href='https://github.com/sebabelmar/pigly/blob/master/app/views/restaurants/show.html.erb'>JavaScript</a> (lines 127-269) logic that integrates the <a href='http://www.d3js.org'> D3.js</a> Bubble Plot visualization into the app."+
+                  "<br><br>Using the Locu API we display local restaurants and their current menu items for users to vote on, positive or negative. Google maps helps users find restaurants in the city and Facebook API let's them share their activity with friends and family. Data visualization with D3 creates a fun experience to learn more about restaurant demographics and item ranking. <br>"+
+                  "<br><br>Some fun code I wrote are the <a href='https://github.com/sebabelmar/pigly/blob/master/app/models/age_bubble.rb'>Model</a>, <a href='https://github.com/sebabelmar/pigly/blob/master/app/controllers/age_bubble_controller.rb'>Controller </a> and <a href='https://github.com/sebabelmar/pigly/blob/master/app/views/restaurants/show.html.erb'>JavaScript</a> (lines 127-269) logic that integrates the <a href='http://www.d3js.org'> D3.js</a> Bubble Plot visualization into the app."+
                   "</p>",
         hero_img: 'img/portfolio/pigly.png',
         tile_img: 'img/portfolio/pigly-logo.png',
@@ -184,10 +183,9 @@ var project = new Vue({
         id:'portfolioModal9',
         title: 'SweetSinatra',
         content:  "<p class='black-font'>"+
-                  "Sweet Sinatra was the winner of the July 2014 DBC Hackathon Best Back End prize. <br>"+
-                  "In just 10 hours we built a gem that creates an app skeleton with scaffold options for Sinatra. <br>  The idea was to emulate Rails on top of Sinatra."+
-                  "We have work to do still because its documentation is pending plus it needs refactoring and bug fixing. <br>"+
-                  "The entire gem logic was written on one file <a href='https://github.com/sebabelmar/SweetSinatra/blob/master/lib/sweetsinatra.rb'>sweetsinatra.rb</a>. This was a nice challenge and gave us the oportunity to understand how Rails structure works."+
+                  "Sweet Sinatra was the winner of the July 2014 DBC Hackathon Best Back End prize. In just 10 hours we built a gem that creates an app skeleton with scaffold options for Sinatra. The idea was to emulate Rails on top of Sinatra."+
+                  "<br><br>We have work to do still because its documentation is pending plus it needs refactoring and bug fixing."+
+                  "<br><br>The entire gem logic was written on one file <a href='https://github.com/sebabelmar/SweetSinatra/blob/master/lib/sweetsinatra.rb'>sweetsinatra.rb</a>. This was a nice challenge and gave us the oportunity to understand how Rails structure works."+
                   "</p>",
         hero_img: 'img/portfolio/sweetsinatra.png',
         tile_img: 'img/portfolio/sweetsinatra-logo.png',
