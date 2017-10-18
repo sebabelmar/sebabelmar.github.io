@@ -169,7 +169,7 @@
                                 <img v-bind:src="project.hero_img" class="img-responsive img-centered" alt="">
                                 <div v-html="project.content">
                                 </div>
-                                <ul class="list-inline item-details">
+                                <ul v-if="project.gitub_button" class="list-inline item-details">
                                     <li>
                                         <strong><a v-bind:href="project.url">GitHub</a>
                                         </strong>
@@ -214,7 +214,7 @@
     <!-- Footer -->
     <footer>
         <div class="container text-center">
-            <p>Feel free to copy &copy; seba belmar</p>
+            <p>Feel free to copy &copy; seba belmar | powered by <a href='https://vuejs.org/'>vue.js</a></p>
         </div>
     </footer>
 

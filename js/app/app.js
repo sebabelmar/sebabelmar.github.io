@@ -48,130 +48,153 @@ var project = new Vue({
         id: 'portfolioModal1',
         title: 'Actua',
         content: "<p class='black-font'>"+
-                  "Foremly is an expenses report app. This app broke my MS Excel barriers and now I’m happily parsing Bank Statement to help small business in their costing processes.<br>"+
-                  "This app was the first full stack experience I ever had and it gave me that fantastic tipping point that I was waiting for. I went from an problem to an idea, from an idea to a plan and then I saw all together on the browser."+
-                  "Some fun code is the  <a href='https://github.com/sebabelmar/foremly_api/blob/master/lib/bank_statement.rb'>Bank Statement Parser</a> accounts. Now what is going to be fun is the  <a href='https://github.com/sebabelmar/FOREMLY/blob/DATA_BASE/db/schema.rb'>Data Dase Structure</a> that will allow clients and jobs parameterization."+
-                  "You will find this project in 3 repos because I built an API and APP as part of DBC phase II final project and now I’m combing all into one Ruby on Rails App.</p>",
+                    "For the last ten months I’ve been working on ACTUA a <a href='http://rubyonrails.org/'>Ruby on Rails</a>, <a href='https://www.mongodb.com/'>MongoDB</a>, <a href='https://www.postgresql.org/'>Postgresql</a> web application. ACTUA is an <a href='https://en.wikipedia.org/wiki/IAS_19'>Actuarial Calculator for financial reporting proposes</a>. It calculates the present value of the accured different banefits that each employee has theoterically benefit from up to date. Built as an internal tool for a financial services company in Chile whom cliente is the biggest Airline in Latin America."+
+                    "<br><br>ACTUA improved the efficiency of the previous calculator, reducing the calculation time from ~12 hours using an Excel Macro to an hour with perfect accuracy. This new calculator can process the required information of +8,000 employees with simple configurability and selectivity. Features that the Excel Macro did not have and it could have taken a really expensive amount hours to implement, if possible, in a flexible and scalable manner."+
+                    "<br><br>Today, ACTUA is used to perform quarterly calculations and full year forecasts."+
+                    "<br><br>What is an <a href='https://en.wikipedia.org/wiki/Actuarial_science'>Actuarial</a> calculation? Each quarter companies that trade stocks have to report how much money they have provisioned for the accrued employee benefits up to date. Employees can be members of different unions, their age, time in the "+
+                    "company, gender, and position are relevant inputs for the calculation. Additionally each union can have different set of contract signed with the company, and each case can be different, they change with each collective negotiation plus regulatory and macro economic inputs change for each calculation date. On top of the inputs complexities and diversity, the calculation has to be performed in a person to person basis and a stress test has to be applied to 4 variables independently in order to aggregate 5 potential scenarios."+
+                    "<br><br>Next steps in this project it would be to build a friendly user interface. Currently, ACTUA runs using the back end tier of RoR plus a set of simple terminal commands."+
+                  "</p>",
         hero_img: 'img/portfolio/actua.png',
         tile_img: 'img/portfolio/actua-logo.png',
         type: 'Web App',
         techs: 'Ruby on Rails | MongoDB | SQL',
+        gitub_button: false,
         url: ''
       },
       {
         id:'portfolioModal2',
         title: 'Mason Bottle',
-        content:"<p class='black-font'>"+
-                  "Foremly is an expenses report app. This app broke my MS Excel barriers and now I’m happily parsing Bank Statement to help small business in their costing processes.<br>"+
-                  "This app was the first full stack experience I ever had and it gave me that fantastic tipping point that I was waiting for. I went from an problem to an idea, from an idea to a plan and then I saw all together on the browser."+
-                  "Some fun code is the  <a href='https://github.com/sebabelmar/foremly_api/blob/master/lib/bank_statement.rb'>Bank Statement Parser</a> accounts. Now what is going to be fun is the  <a href='https://github.com/sebabelmar/FOREMLY/blob/DATA_BASE/db/schema.rb'>Data Dase Structure</a> that will allow clients and jobs parameterization."+
-                  "You will find this project in 3 repos because I built an API and APP as part of DBC phase II final project and now I’m combing all into one Ruby on Rails App.</p>",
-        hero_img: 'img/portfolio/foremly.png',
-        tile_img: 'img/portfolio/mason-bottle-logo.png',
-        type: '',
-        techs: "",
-        url: ""
+        content: "<p class='black-font'>"+
+                    "<br><br>As the lead e-commerce engineer I redesigned and developed Mason Bottle’s <a href='https://themes.shopify.com/'>Shopify store theme</a>. Using <a href='https://shopify.github.io/Timber/'>Timber</a> and <a href='https://help.shopify.com/themes/liquid'>Liquid</a> (Shopify’s template language written in Ruby) I was able give our store our own look and add customizable features."+
+                    "<br><br>These are a few example of the features built:"+
+                    "<br><br><a href=''>Smart Welcome Optin pop-up</a>"+
+                    "<br><a href=''>Blog Tile Board</a>"+
+                    "<br><a href=''>Shop Our Instagram Grid</a>"+
+                    "<br><br>In order to maintain and create features for Shopify, besides using Liquid, this project requires heavy use of Javascript in different flavors, mainly <a href='https://jquery.com/'>jQuery</a>. The code for this project is hosted in a Github private repo."+
+                  "</p>",
+        hero_img: 'img/portfolio/masonbottle.png',
+        tile_img: 'img/portfolio/masonbottle-logo.png',
+        type: 'shopify store',
+        techs: 'Liquid | Javascript',
+        gitub_button: true,
+        url: 'https://github.com/masonbottle'
 
       },
       {
         id:'portfolioModal3',
         title: 'Momentto',
         content:"<p class='black-font'>"+
-                  "Foremly is an expenses report app. This app broke my MS Excel barriers and now I’m happily parsing Bank Statement to help small business in their costing processes.<br>"+
-                  "This app was the first full stack experience I ever had and it gave me that fantastic tipping point that I was waiting for. I went from an problem to an idea, from an idea to a plan and then I saw all together on the browser."+
-                  "Some fun code is the  <a href='https://github.com/sebabelmar/foremly_api/blob/master/lib/bank_statement.rb'>Bank Statement Parser</a> accounts. Now what is going to be fun is the  <a href='https://github.com/sebabelmar/FOREMLY/blob/DATA_BASE/db/schema.rb'>Data Dase Structure</a> that will allow clients and jobs parameterization."+
-                  "You will find this project in 3 repos because I built an API and APP as part of DBC phase II final project and now I’m combing all into one Ruby on Rails App.</p>",
-        hero_img: 'img/portfolio/foremly.png',
+                    "Mementto is a private layer of memories for Instagram media. I built this app for my wife's 30th birthday."+
+                    "<br><br>Using <a href='https://www.instagram.com/developer/'>Instagram OAuth and API</a> users can fetch their pictures and videos and add personal and private comments, reflections or notes."+
+                    "<br><br>This project was hosted on Heroku as a web app built using the <a href='http://meanjs.org/'>MEAN Stack</a>. MongoDB, ExpressJS, AngularJS and NodeJS are the elements of this stack."+
+                  "</p>",
+        hero_img: 'img/portfolio/momentto.png',
         tile_img: 'img/portfolio/momentto-logo.png',
-        type: '',
-        techs: "",
-        url: ""
+        type: 'web app',
+        techs: 'MongoDB | Express.js | Angular.js | Node.js',
+        gitub_button: true,
+        url: 'https://github.com/sebabelmar/momentto'
       },
       {
         id:'portfolioModal4',
         title: 'Education & Experiments',
-        content:"<p class='black-font'>"+
-                  "Foremly is an expenses report app. This app broke my MS Excel barriers and now I’m happily parsing Bank Statement to help small business in their costing processes.<br>"+
-                  "This app was the first full stack experience I ever had and it gave me that fantastic tipping point that I was waiting for. I went from an problem to an idea, from an idea to a plan and then I saw all together on the browser."+
-                  "Some fun code is the  <a href='https://github.com/sebabelmar/foremly_api/blob/master/lib/bank_statement.rb'>Bank Statement Parser</a> accounts. Now what is going to be fun is the  <a href='https://github.com/sebabelmar/FOREMLY/blob/DATA_BASE/db/schema.rb'>Data Dase Structure</a> that will allow clients and jobs parameterization."+
-                  "You will find this project in 3 repos because I built an API and APP as part of DBC phase II final project and now I’m combing all into one Ruby on Rails App.</p>",
-        picture: 'img/portfolio/foremly.png',
-        hero_img: 'img/portfolio/foremly.png',
+        content: "<p class='black-font'>"+
+                  "As part of my own education and with the propose of teaching web development at <a href='https://devbootcamp.com/'>Dev Bootcamp</a> I created several code experiments, this is a short list of some interesting projects:"+
+                  "<br><br><a href='https://github.com/sebabelmar/dbc_nem_api'>MEN API</a>"+
+                  "<br><a href='https://github.com/sebabelmar/mean_tweets'>MEAN Tweets</a>"+
+                  "<br><a href='https://github.com/sebabelmar/DBC_closures'>Advance JS - Closures</a>"+
+                  "<br><a href='https://github.com/cshit/cshit/'>CSHIT</a>"+
+                  "<br><a href='https://github.com/sebabelmar/dbc_api'>DBC API</a>"+
+                  "<br><a href='https://github.com/sebabelmar/dbc_sinatra_api'>Sinatra API</a>"+
+                  "<br><a href='https://github.com/sebabelmar/dbc_booking_system'>Booking System</a>"+
+                  "</p>",
+        hero_img: 'img/portfolio/e-e.png',
         tile_img: 'img/portfolio/e-e-logo.png',
-        type: '',
-        techs: "",
-        url: ""
+        type: 'Code experiments',
+        techs: 'Ruby | Javascript | SQL | MongoDB',
+        gitub_button: true,
+        url: 'https://github.com/sebabelmar'
       },
       {
         id:'portfolioModal5',
-        title: 'Enventure',
-        content:"<p class='black-font'>"+
-                  "Foremly is an expenses report app. This app broke my MS Excel barriers and now I’m happily parsing Bank Statement to help small business in their costing processes.<br>"+
-                  "This app was the first full stack experience I ever had and it gave me that fantastic tipping point that I was waiting for. I went from an problem to an idea, from an idea to a plan and then I saw all together on the browser."+
-                  "Some fun code is the  <a href='https://github.com/sebabelmar/foremly_api/blob/master/lib/bank_statement.rb'>Bank Statement Parser</a> accounts. Now what is going to be fun is the  <a href='https://github.com/sebabelmar/FOREMLY/blob/DATA_BASE/db/schema.rb'>Data Dase Structure</a> that will allow clients and jobs parameterization."+
-                  "You will find this project in 3 repos because I built an API and APP as part of DBC phase II final project and now I’m combing all into one Ruby on Rails App.</p>",
-        hero_img: 'img/portfolio/foremly.png',
-        tile_img: 'img/portfolio/enventure.png',
-        type: '',
-        techs: '',
-        url: ''
+        title: 'Dribbble Passport',
+        content: "<p class='black-font'>"+
+                    "In 2015 I published the <a href='http://developer.dribbble.com/'>Dribbble OAuth 2.0</a> <a href='http://passportjs.org/'>passport.js</a> strategy on <a href='https://www.npmjs.com/package/passport-dribbble'>NPM</a>. This package get downloaded hundreds of time a months."+
+                    "<br><br>Why? I wanted to contribute to what I considering the most giving and creative community in the world, the Open Source community. And this is the story: when I moved to San Francisco I spent a long season going to different Hackathons, and one of them was the Shirts.io Hackathon. My team won by turning any <a href='<a href='https://www.dribbble.comhttp://developer.dribbble.com/'>Dribbble</a> account into a shirt store. We won $5,000 worth of shirts and decided to keep working in the app. In the process Dribbble launched their <a href='http://developer.dribbble.com/'>API’s new version</a> that included OAuth 2.0 as protocol for authentication. Since we were using the MEAN stack and passport.js as authentication library I wrote the Dribbble strategy and open source it. This contribution gets downloaded a couple of times a day at least which makes me really happy."+
+                    "<br><br>We used the <a href='http://developer.dribbble.com/'>Dribbble API</a> and the <a href='https://scalablepress.com/'>ScalablePress API</a> to allow artist to easily sell their art on shirts of any size and color."+
+                  "</p>",
+        hero_img: 'img/portfolio/dribbble.png',
+        tile_img: 'img/portfolio/dribbble-logo.png',
+        type: 'npm package',
+        techs: 'Javascript',
+        gitub_button: true,
+        url: 'https://www.npmjs.com/package/passport-dribbble'
       },
       {
         id:'portfolioModal6',
-        title: 'Foremly',
-        content:"<p class='black-font'>"+
-                  "Foremly is an expenses report app. This app broke my MS Excel barriers and now I’m happily parsing Bank Statement to help small business in their costing processes.<br>"+
-                  "This app was the first full stack experience I ever had and it gave me that fantastic tipping point that I was waiting for. I went from an problem to an idea, from an idea to a plan and then I saw all together on the browser."+
-                  "Some fun code is the  <a href='https://github.com/sebabelmar/foremly_api/blob/master/lib/bank_statement.rb'>Bank Statement Parser</a> accounts. Now what is going to be fun is the  <a href='https://github.com/sebabelmar/FOREMLY/blob/DATA_BASE/db/schema.rb'>Data Dase Structure</a> that will allow clients and jobs parameterization."+
-                  "You will find this project in 3 repos because I built an API and APP as part of DBC phase II final project and now I’m combing all into one Ruby on Rails App.</p>",
-        hero_img: 'img/portfolio/foremly.png',
-        tile_img: 'img/portfolio/enventure.png',
-        type: '',
-        techs: '',
-        url: ''
+        title: 'Graphics, pictures & videos',
+        content: "<p class='black-font'>"+
+                    "I have a huge passion for <a href='https://www.flickr.com/photos/sebabelmar'>photography</a>, I've spent hours in the outdoors catching sunrises, sunsets, wild life. But I’ve never thought that I would use that experience professionally, until I started my own business."+
+                    "<br><br>At <a href='https://www.masonbottle.com'>Mason Bottle</a> we have limited resources and the need for visual assets is huge. Additionally of shooting pictures and video I learned production, post production and how to use most of the Above Creative Suite."+
+                    "<br><br>I love this aspect of our business, since image, esthetics and inspiring communication means a lot to me and I enjoy spending time on this area. Most is related to <a href='https://www.masonbottle.com'>Mason Bottle</a>:"+
+                    "<br><br><a href='https://www.kickstarter.com/projects/mason-bottle/the-3-in-1-toddler-tumbler/description'> Toddler Tumbler Kickstarter</a> video and graphics"+
+                    "<br><a href='https://www.kickstarter.com/projects/masonbottle/the-mason-bottle'>Mason Bottle Kickstarter</a> video and graphics"+
+                    "<br><a href='https://masonbottle.com/'>Mason Bottle</a> Shopify Store"+
+                  "</p>",
+        hero_img: 'img/portfolio/g-c.png',
+        tile_img: 'img/portfolio/g-c-logo.png',
+        type: 'Graphic Design',
+        techs: 'Adove CS | Nikon DSLR',
+        gitub_button: false,
+        url: 'https://www.masonbottle.com'
       },
       {
         id:'portfolioModal7',
         title: 'Foremly',
-        content:"<p class='black-font'>"+
-                  "Foremly is an expenses report app. This app broke my MS Excel barriers and now I’m happily parsing Bank Statement to help small business in their costing processes.<br>"+
-                  "This app was the first full stack experience I ever had and it gave me that fantastic tipping point that I was waiting for. I went from an problem to an idea, from an idea to a plan and then I saw all together on the browser."+
-                  "Some fun code is the  <a href='https://github.com/sebabelmar/foremly_api/blob/master/lib/bank_statement.rb'>Bank Statement Parser</a> accounts. Now what is going to be fun is the  <a href='https://github.com/sebabelmar/FOREMLY/blob/DATA_BASE/db/schema.rb'>Data Dase Structure</a> that will allow clients and jobs parameterization."+
-                  "You will find this project in 3 repos because I built an API and APP as part of DBC phase II final project and now I’m combing all into one Ruby on Rails App.</p>",
+        content: "<p class='black-font'>"+
+                    "Foremly is an expenses report app. Built with a solar power company in mind were I use to help with in the costing process, Foremely can distribute lists of expenses by cards number."+
+                    "<br><br>After a bank statement parsing routine each card holder, foreman, can login to their accounts and classify expenses by project and cost units. Giving the accounting team precise information. Some fun code is the Bank Statement Parser."+
+                    "<br><br>You will find this project in 2 repos because I built an API and APP as part of DBC phase II final project."+
+                  "</p>",
         hero_img: 'img/portfolio/foremly.png',
         tile_img: 'img/portfolio/foremly-logo.png',
-        type: '',
-        techs: '',
-        url: ''
+        type: 'web app',
+        techs: 'Sinatra | Javascript | Postgres',
+        gitub_button: true,
+        url: 'https://github.com/sebabelmar/foremly_app'
       },
       {
         id:'portfolioModal8',
         title: 'Pigly',
-        content:"<p class='black-font'>"+
-          "Pigly is a Ruby on Rails - Mobile First app that allows users to find the best dishes on any San Francisco restaurant menu. <br>"+
-          "Using the Locu API we display local restaurants and their current menu items for users to vote on, positive or negative. Google maps helps users find restaurants in the city and Facebook API let's them share their activity with friends and family. Data visualization with D3 creates a fun experience to learn more about restaurant demographics and item ranking. <br>"+
-          "DevBootcamp Students developed Pigly in 7 days.<br>"+
-          "Some fun code I wrote are the <a href='https://github.com/sebabelmar/pigly/blob/master/app/models/age_bubble.rb'>Model</a>, <a href='https://github.com/sebabelmar/pigly/blob/master/app/controllers/age_bubble_controller.rb'>Controller </a> and <a href='https://github.com/sebabelmar/pigly/blob/master/app/views/restaurants/show.html.erb'>JavaScript</a> (lines 127-269) logic that integrates the <a href='http://www.d3js.org'> D3.js</a> Bubble Plot visualization into the app."+
-          "</p>",
+        content:  "<p class='black-font'>"+
+                  "Pigly is a Ruby on Rails - Mobile First app that allows users to find the best dishes on any San Francisco restaurant menu. <br>"+
+                  "Using the Locu API we display local restaurants and their current menu items for users to vote on, positive or negative. Google maps helps users find restaurants in the city and Facebook API let's them share their activity with friends and family. Data visualization with D3 creates a fun experience to learn more about restaurant demographics and item ranking. <br>"+
+                  "DevBootcamp Students developed Pigly in 7 days.<br>"+
+                  "Some fun code I wrote are the <a href='https://github.com/sebabelmar/pigly/blob/master/app/models/age_bubble.rb'>Model</a>, <a href='https://github.com/sebabelmar/pigly/blob/master/app/controllers/age_bubble_controller.rb'>Controller </a> and <a href='https://github.com/sebabelmar/pigly/blob/master/app/views/restaurants/show.html.erb'>JavaScript</a> (lines 127-269) logic that integrates the <a href='http://www.d3js.org'> D3.js</a> Bubble Plot visualization into the app."+
+                  "</p>",
         hero_img: 'img/portfolio/pigly.png',
         tile_img: 'img/portfolio/pigly-logo.png',
-        type: '',
-        techs: '',
+        type: 'web app',
+        techs: 'Ruby on Rails | Javascript | Postgres | Facebook API | GoogleMaps API',
+        gitub_button: true,
         url: ''
       },
       {
         id:'portfolioModal9',
         title: 'SweetSinatra',
-        content:"<p class='black-font'>Sweet Sinatra was the winner of the July 2014 DBC Hackathon Best Back End prize. <br>"+
-          "In just 10 hours we built a gem that creates an app skeleton with scaffold options for Sinatra. <br>  The idea was to emulate Rails on top of Sinatra."+
-          "We have work to do still because its documentation is pending plus it needs refactoring and bug fixing. <br>"+
-          "The entire gem logic was written on one file <a href='https://github.com/sebabelmar/SweetSinatra/blob/master/lib/sweetsinatra.rb'>sweetsinatra.rb</a>. This was a nice challenge and gave us the oportunity to understand how Rails structure works."+
-          "</p>",
+        content:  "<p class='black-font'>"+
+                  "Sweet Sinatra was the winner of the July 2014 DBC Hackathon Best Back End prize. <br>"+
+                  "In just 10 hours we built a gem that creates an app skeleton with scaffold options for Sinatra. <br>  The idea was to emulate Rails on top of Sinatra."+
+                  "We have work to do still because its documentation is pending plus it needs refactoring and bug fixing. <br>"+
+                  "The entire gem logic was written on one file <a href='https://github.com/sebabelmar/SweetSinatra/blob/master/lib/sweetsinatra.rb'>sweetsinatra.rb</a>. This was a nice challenge and gave us the oportunity to understand how Rails structure works."+
+                  "</p>",
         hero_img: 'img/portfolio/sweetsinatra.png',
         tile_img: 'img/portfolio/sweetsinatra-logo.png',
-        type: '',
-        techs: '',
-        url: ''
+        type: 'Ruby Gem',
+        techs: 'Ruby | Sinatra',
+        gitub_button: true,
+        url: 'https://github.com/Sinatrify'
       }
     ]
   },
