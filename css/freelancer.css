@@ -449,10 +449,58 @@ footer .footer-below {
     transform: rotate(90deg);
 }
 
-#seba {
+.black-font {
     color: black;
 }
 
-.black-font {
-    color: black;
+
+/*
+Recommendation Cards
+*/
+.card-conteiner {
+  right: 0;
+  margin: 0 0 15px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  min-height: 500px;
+  margin: 0 auto 10px;
+  text-align: center;
+  background-color: white;
+  padding: 0 15px 0 15px;
+}
+
+.card-img {
+  width:50%;
+  padding-top:15px;
+  border-radius: 50%;
+}
+
+.header {
+  height: 270px;
+}
+
+.header h1 {
+  color:black;
+  padding-top:15px;
+}
+
+.title {
+  height: 90px;
+  padding-top: 10px;
+  color: grey;
+  font-size: 18px;
+}
+
+.card a {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.textarea{
+  max-height: 200px;
+  overflow-y:scroll;
+  color: grey;
 }

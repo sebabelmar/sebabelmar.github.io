@@ -20,6 +20,7 @@
 
     <!-- Custom Fonts -->
     <link href="font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="css/technology-icons.css" rel="stylesheet">
     <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
 
@@ -56,6 +57,9 @@
                     </li>
                     <li>
                         <a class="page-scroll" href="#about">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#skills">Skills</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#portfolio">Portfolio</a>
@@ -102,7 +106,7 @@
                   <span><a href="#meModal2" data-toggle="modal">engineer</a></span> |
                   <span><a href="#meModal3" data-toggle="modal">educator</a></span>
                 </h2>
-                  <img src="img/family.jpg" class="img-responsive img-centered" id="bio" alt="Responsive image">
+                  <img src="img/avatar.png" class="img-responsive img-centered" id="bio" alt="Sebastian Belmar">
                 <p>
                   Full stack developer with huge passion for contributing to projects that are re-shaping the way we interact with each other and consume resources from the planet.
                   <br><br>
@@ -110,6 +114,58 @@
                   <br><br>
                   Worked as software engineer at <a href="https://techcrunch.com/2015/02/19/renaissance-learning-acquires-uclass/">UClass</a>, <a href="https://www.renaissance.com/">Renaissance Learning</a>, and as web development instructor at <a href="http://devbootcamp.com/"> Dev Bootcamp, San Francisco</a>. Previously, financial engineer and sustainability and climate change consultant at <a href="http://www.ey.com/us/en/services/transactions/about-transaction-advisory-services">EY</a>.
                 </p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Skills Section -->
+    <section id="skills" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2>Technical skills and interests</h2>
+                <br><br><br>
+            </div>
+        </div>
+
+        <div class="row">
+            <a href="https://www.javascript.com/"><p class="col-md-4 icon-js" style='font-size:30px;'> Javascript</p></a>
+            <a href="https://www.ruby-lang.org/en/"><p class="col-md-4 icon-ruby" style='font-size:30px;'> Ruby</p></a>
+            <a href="https://github.com/dotnet/csharplang"><p class="col-md-4 icon-csharp" style='font-size:30px;'> CSharp</p></a>
+        </div>
+        <div class="row">
+            <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3"><p class="col-md-4 icon-css3" style='font-size:30px;'> CSS</p></a>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5"><p class="col-md-4 icon-html5" style='font-size:30px;'> HTML</p></a>
+            <a href="https://git-scm.com/"><p class="col-md-4 icon-git-squared" style='font-size:30px;'> git</p></a>
+        </div>
+        <div class="row">
+            <a href="https://www.mongodb.com/"><p class="col-md-4 icon-mongodb" style='font-size:30px;'> MongoDB</p></a>
+            <a href="https://www.postgresql.org/"><p class="col-md-4 icon-postgres" style='font-size:30px;'> Postgres</p></a>
+            <a href="https://redis.io/"><p class="col-md-4 icon-redis" style='font-size:30px;'> Redis</p></a>
+        </div>
+        <div class="row">
+            <a href="http://rubyonrails.org/"><p class="col-md-4 icon-rails-alt" style='font-size:30px;'> Ruby on Rails</p></a>
+            <a href="https://nodejs.org/en/"><p class="col-md-4 icon-nodejs" style='font-size:30px;'> NodeJS</p></a>
+            <a href="https://angularjs.org/"><p class="col-md-4 icon-js" style='font-size:30px;'> Angular</p></a>
+        </div>
+        <div class="row">
+            <a href="https://jquery.com/"><p class="col-md-4 icon-jquery" style='font-size:30px;'> jQuery</p></a>
+            <a href="https://v4-alpha.getbootstrap.com/"><p class="col-md-4 icon-bootstrap" style='font-size:30px;'> Bootstrap</p></a>
+            <a href="https://www.elastic.co/products/elasticsearch"><p class="col-md-4 icon-opensource" style='font-size:30px;'> Elasticsearch</p></a>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="about" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2>Career highlights</h2>
+                <br><br><br>
+                <a href="https://techcrunch.com/2015/02/19/renaissance-learning-acquires-uclass/"><p>successful EdTech startup exit in less than a year as 2nd engineer in 9 people company - UClass</p></a>
+                <a href="https://www.inc.com/kate-l-harrison/a-brilliant-new-design-turns-any-mason-jar-into-a-baby-bottle.html"><p>e-commerce startup cofounder featured in INC Magazine</p></a>
+                <a href="https://www.kickstarter.com/projects/mason-bottle/the-3-in-1-toddler-tumbler/description"><p>2 Successful Kickstarter campaigns. Raised +70k</p></a>
+                <a href="#"><p>member of top performing team at largest EdTech company in the world</p></a>
+                <a href="#portfolio"><p>creator of FinTech calculator used with biggest airline in Latin America</p></a>
             </div>
         </div>
     </section>
@@ -128,7 +184,7 @@
               <div v-for="set in projectSets()">
                 <div class="row">
                   <template v-for="project in set">
-                      <div class="col-sm-4 portfolio-item">
+                      <div class="col-sm-4 portfolio-item" v-if="project.display">
                           <a v-bind:href="'#' + project.id" class="portfolio-link" data-toggle="modal">
                               <div class="caption">
                                   <div class="caption-content">
@@ -184,6 +240,39 @@
         </div>
       </template>
     </div>
+
+  <!-- Recomendations -->
+  <section id="recomendations" class="content-section text-center">
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-12 text-center">
+                  <h2>Recommendations</h2>
+                  <br><br>
+              </div>
+          </div>
+            <div class="row">
+              <div class="card-contneiner">
+                <template id="#recommendations" v-for='rec in recs'>
+                  <div class="col-sm-4">
+                    <div class="card">
+                      <div class="header">
+                        <img class='card-img' v-bind:src="rec.img">
+                        <h1>{{rec.name}}</h1>
+                      </div>
+                      <div class="title">
+                        <p>{{rec.title}}</p>
+                      </div>
+                      <div class="content">
+                        <div class="textarea">{{rec.content}}</div>
+                      </div>
+                      <a v-bind:href="rec.in_url"><i class="fa fa-linkedin"></i></a>
+                    </div>
+                  </div>
+                </template>
+              </div>
+          </div>
+      </div>
+    </section>
 
     <!-- Contact Section -->
     <section id="contact" class="container content-section text-center">

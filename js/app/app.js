@@ -60,7 +60,8 @@ var project = new Vue({
         type: 'Web App',
         techs: 'Ruby on Rails | MongoDB | SQL',
         gitub_button: false,
-        url: ''
+        url: '',
+        display: true
       },
       {
         id:'portfolioModal2',
@@ -78,7 +79,8 @@ var project = new Vue({
         type: 'shopify store',
         techs: 'Liquid | Javascript',
         gitub_button: true,
-        url: 'https://github.com/masonbottle'
+        url: 'https://github.com/masonbottle',
+        display: true
 
       },
       {
@@ -94,7 +96,8 @@ var project = new Vue({
         type: 'web app',
         techs: 'MongoDB | Express.js | Angular.js | Node.js',
         gitub_button: true,
-        url: 'https://github.com/sebabelmar/momentto'
+        url: 'https://github.com/sebabelmar/momentto',
+        display: true
       },
       {
         id:'portfolioModal4',
@@ -108,13 +111,17 @@ var project = new Vue({
                   "<br><a href='https://github.com/sebabelmar/dbc_api'>DBC API</a>"+
                   "<br><a href='https://github.com/sebabelmar/dbc_sinatra_api'>Sinatra API</a>"+
                   "<br><a href='https://github.com/sebabelmar/dbc_booking_system'>Booking System</a>"+
+                  "<br><a href='https://github.com/sebabelmar/foremly_app'>Foremly</a>"+
+                  "<br><a href='https://github.com/sebabelmar/pigly'>Pigly</a>"+
+                  "<br><a href='https://github.com/Sinatrify'>SweetSinatra</a>"+
                   "</p>",
         hero_img: 'img/portfolio/e-e.png',
         tile_img: 'img/portfolio/e-e-logo.png',
         type: 'Code experiments',
         techs: 'Ruby | Javascript | SQL | MongoDB',
         gitub_button: true,
-        url: 'https://github.com/sebabelmar'
+        url: 'https://github.com/sebabelmar',
+        display: true
       },
       {
         id:'portfolioModal5',
@@ -129,7 +136,8 @@ var project = new Vue({
         type: 'npm package',
         techs: 'Javascript',
         gitub_button: true,
-        url: 'https://www.npmjs.com/package/passport-dribbble'
+        url: 'https://www.npmjs.com/package/passport-dribbble',
+        display: true
       },
       {
         id:'portfolioModal6',
@@ -147,7 +155,8 @@ var project = new Vue({
         type: 'Graphic Design',
         techs: 'Adove CS | Nikon DSLR',
         gitub_button: false,
-        url: 'https://www.masonbottle.com'
+        url: 'https://www.masonbottle.com',
+        display: true
       },
       {
         id:'portfolioModal7',
@@ -162,7 +171,8 @@ var project = new Vue({
         type: 'web app',
         techs: 'Sinatra | Javascript | Postgres',
         gitub_button: true,
-        url: 'https://github.com/sebabelmar/foremly_app'
+        url: 'https://github.com/sebabelmar/foremly_app',
+        display: false
       },
       {
         id:'portfolioModal8',
@@ -177,7 +187,8 @@ var project = new Vue({
         type: 'web app',
         techs: 'Ruby on Rails | Javascript | Postgres | Facebook API | GoogleMaps API',
         gitub_button: true,
-        url: 'https://github.com/sebabelmar/pigly'
+        url: 'https://github.com/sebabelmar/pigly',
+        display: false
       },
       {
         id:'portfolioModal9',
@@ -192,7 +203,8 @@ var project = new Vue({
         type: 'Ruby Gem',
         techs: 'Ruby | Sinatra',
         gitub_button: true,
-        url: 'https://github.com/Sinatrify'
+        url: 'https://github.com/Sinatrify',
+        display: false
       }
     ]
   },
@@ -208,3 +220,34 @@ var project = new Vue({
   }
 
 });
+
+
+var recommendations = new Vue({
+  el: '#recomendations',
+
+  data: {
+    recs: [
+      {
+          name: 'Varun Gulati',
+          title: 'Manager at Renaissance Learning',
+          content: 'Sebastian joined my team back in 2014, and I cannot speak highly enough about the many contributions he made. Aside from being an incredible engineer, there are three main things that set him apart as a leader in the pack: his strong desire to critically and collaboratively approach challenging problems (watch him work his magic on a whiteboard!), his ability to coach younger engineers (he is a professional instructor, after all), and his infectiously positive attitude that truly sets a warm, productive culture for any team that is lucky to have him. Few people have the rare combo of strong technical chops, EQ, integrity, and innovative mindset that he does. Any individual that has worked with him can attest to this fact!',
+          in_url: 'https://www.linkedin.com/in/vrgulati/',
+          img: 'img/varun.jpg'
+      },
+      {
+          name: 'Jaclyn Karnowski',
+          title: 'Technical Curriculum Developer at UBER',
+          content: 'Seba brings an energy and light to teaching and engineering that is unparalleled. As a software engineer, he invests sufficient time into understanding the problem being solved, the architecture already in place and the people involved in the project. His curiosity for how to best leverage a language like Ruby or framework like AngularJS leads to incredibly fun projects. As a teacher, he knows how to ask the right questions to guide students in a balanced dance between     building confidence in what they know and pushing them to the next level of learning. Without a doubt, I want to work with Seba again as an engineer or as a teacher!',
+          in_url: 'https://www.linkedin.com/in/jaclynkarnowski/',
+          img: 'img/jk.jpg'
+      },
+      {
+          name: 'Rob Andrews',
+          title: 'Data Scientist at Athos',
+          content: 'Ive had the pleasure of working with Sebastian in two different contexts, the first at a small startup and the second at a large company post-acquisition. Sebastian is an excellent software engineer – he takes pride in his work, thrives in technical discussion, adopts best practices, and produces quality, maintainable code. His technical accolades stand on their own, but software development is a team sport and here he shines. As a teammate, Sebastian championed pair programming, spent time owning and teaching new technologies, and encouraged improvement through code reviews. He did all this with a smile and infectious positivity. I look forward to the next time we work together.',
+          in_url: 'https://www.linkedin.com/in/rob-andrews-840a2b51/',
+          img: 'img/rob.jpg'
+      }
+    ]
+  }
+})
