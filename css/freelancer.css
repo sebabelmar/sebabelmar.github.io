@@ -354,12 +354,7 @@ footer .footer-below {
 
 .btn-social {
     display: inline-block;
-    width: 50px;
-    height: 50px;
-    border: 2px solid #fff;
-    border-radius: 100%;
-    text-align: center;
-    font-size: 20px;
+    font-size: 40px;
     line-height: 45px;
 }
 
@@ -503,4 +498,22 @@ Recommendation Cards
   max-height: 200px;
   overflow-y:scroll;
   color: grey;
+}
+
+#contact h2 {
+  line-height: 30px
+  /*font-size:50px;*/
+}
+
+@media(max-width:768px) {
+  .img-intro{
+    max-width: 200px;
+    max-height: 200px;
+  }
+
+  .img-intro-two{
+    max-width: auto;
+    max-height: 200px;
+
+  }
 }
