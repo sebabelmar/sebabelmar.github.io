@@ -198,6 +198,22 @@ section.success {
     }
 }
 
+/*
+* Intro section
+*/
+@media(max-width:768px) {
+  .img-intro{
+    max-width: 200px;
+    max-height: 200px;
+  }
+
+  .img-intro-two{
+    max-width: auto;
+    max-height: 200px;
+
+  }
+}
+
 #portfolio .portfolio-item {
     right: 0;
     margin: 0 0 15px;
@@ -503,17 +519,4 @@ Recommendation Cards
 #contact h2 {
   line-height: 30px
   /*font-size:50px;*/
-}
-
-@media(max-width:768px) {
-  .img-intro{
-    max-width: 200px;
-    max-height: 200px;
-  }
-
-  .img-intro-two{
-    max-width: auto;
-    max-height: 200px;
-
-  }
 }
