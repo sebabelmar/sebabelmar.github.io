@@ -236,7 +236,7 @@ var recommendations = new Vue({
       },
       {
           name: 'Jaclyn Karnowski',
-          title: 'Technical Curriculum Developer at UBER',
+          title: 'Technical Curriculum Developer at Uber',
           content: 'Seba brings an energy and light to teaching and engineering that is unparalleled. As a software engineer, he invests sufficient time into understanding the problem being solved, the architecture already in place and the people involved in the project. His curiosity for how to best leverage a language like Ruby or framework like AngularJS leads to incredibly fun projects. As a teacher, he knows how to ask the right questions to guide students in a balanced dance between     building confidence in what they know and pushing them to the next level of learning. Without a doubt, I want to work with Seba again as an engineer or as a teacher!',
           in_url: 'https://www.linkedin.com/in/jaclynkarnowski/',
           img: 'img/jk.jpg'
