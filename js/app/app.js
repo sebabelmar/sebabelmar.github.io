@@ -31,7 +31,7 @@ var experience = new Vue({
         content:"<p>One of my biggest passion is to teach and its unfair because I always end up learning a lot by doing so. I have never done it in a traditional set up and I love that."+
         "<br><br>I tutored kids in math during high school and collage, I was a TA for several classes including micro and macro economics, econometrics, corporate finance. I taught entrepreneurial skills as a volunteer at a community collage for the poorest people in Chile. And my last an most passionated experience teaching was as a Web Development instructor at <a href='www.devbootcamp.com'>Dev Bootcamp</a> in San Francisco, USA." +
         "<br><br>Untraditional education allowed me to experience how valuable human connections and interactions are for triggering real curiosity and love for learning. When we can create a space were forgetting is fine, breaking things is accepted and all the members can be them selves and they can bring their unique perspectives to the table we get a rich and fluent environment. This environment is a place were questions become lot more relevant than answers and expressing your real self is more relevant than pretending or becoming an ‘A’ student.</p>",
-        picture: 'img/dbc-cohort.jpg'
+        picture: 'img/dbc_cohort.jpg'
       }
     ]
   }
