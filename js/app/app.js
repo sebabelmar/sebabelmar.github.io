@@ -31,9 +31,11 @@ var experience = new Vue({
       {
         id:'meModal3',
         title: 'Educator',
-        content:"<p>One of my biggest passions is to teach and its unfair because I always end up learning a lot by doing so. I have never done it in a traditional set up and I love that."+
-        "<br><br>I tutored kids in math during high school and college, I was a TA for several classes including micro and macro economics, econometrics, corporate finance. I taught entrepreneurial skills as a volunteer at a community college for the poorest people in Chile. And my last and most passionate experience teaching was as a Web Development instructor at <a href='www.devbootcamp.com'>Dev Bootcamp</a> in San Francisco, USA." +
-        "<br><br>Untraditional education allowed me to experience how valuable human connections and interactions are for triggering real curiosity and love for learning. When we can create a space where forgetting is fine, breaking things is accepted, and all the members can be them selves and they can bring their unique perspectives to the table, we get a rich and fluent environment. This environment is a place where questions become lot more relevant than answers and expressing your real self is more relevant than pretending or becoming an ‘A’ student.</p>",
+        content:"<p>"+
+                  "One of my biggest passions is to teach and its unfair because I always end up learning a lot by doing so. I have never done it in a traditional set up and I love that."+
+                  "<br><br>My last and most passionate experience teaching was as a Web Development instructor at <a href='www.devbootcamp.com'>Dev Bootcamp</a> in San Francisco, USA. I helped more than 300 people from the most diverse backgrounds to become world class junior developers."+
+                  "<br><br>I had the chance to pair program, code review, and lecture about web technologies on a daily basis for almost a year. I've mastered explaining complex ideas in simple ways, I've developed patience and empathy when it comes to learning, and I've become a passionate about learning. " +                
+                "</p>",
         picture: 'img/dbc_cohort.jpg'
       }
     ]
