@@ -34,7 +34,7 @@ var experience = new Vue({
         content:"<p>"+
                   "One of my biggest passions is to teach and its unfair because I always end up learning a lot by doing so. I have never done it in a traditional set up and I love that."+
                   "<br><br>My last and most passionate experience teaching was as a Web Development instructor at <a href='www.devbootcamp.com'>Dev Bootcamp</a> in San Francisco, USA. I helped more than 300 people from the most diverse backgrounds to become world class junior developers."+
-                  "<br><br>I had the chance to pair program, code review, and lecture about web technologies on a daily basis for almost a year. I've mastered explaining complex ideas in simple ways, I've developed patience and empathy when it comes to learning, and I've become a passionate about learning. " +                
+                  "<br><br>I had the chance to pair program, code review, and lecture about web technologies on a daily basis for almost a year. I've mastered explaining complex ideas in simple ways, I've developed patience and empathy when it comes to learning, and I've become a passionate about learning. " +
                 "</p>",
         picture: 'img/dbc_cohort.jpg'
       }
@@ -53,12 +53,11 @@ var project = new Vue({
         id: 'portfolioModal1',
         title: 'Actua',
         content: "<p class='black-font'>"+
-                    "For the last ten months I’ve been working on ACTUA a <a href='http://rubyonrails.org/'>Ruby on Rails</a>, <a href='https://www.mongodb.com/'>MongoDB</a>, <a href='https://www.postgresql.org/'>Postgresql</a> web application. ACTUA is an <a href='https://en.wikipedia.org/wiki/IAS_19'>Actuarial Calculator for financial reporting proposes</a>. It calculates the present value of the accured different banefits that each employee has theoterically benefit from up to date. Built as an internal tool for a financial services company in Chile whom cliente is the biggest Airline in Latin America."+
-                    "<br><br>ACTUA improved the efficiency of the previous calculator, reducing the calculation time from ~12 hours using an Excel Macro to an hour with perfect accuracy. This new calculator can process the required information of +8,000 employees with simple configurability and selectivity. Features that the Excel Macro did not have and it could have taken a really expensive amount hours to implement, if possible, in a flexible and scalable manner."+
-                    "<br><br>Today, ACTUA is used to perform quarterly calculations and full year forecasts."+
+                    "For the last ten months I’ve been working on ACTUA a <a href='http://rubyonrails.org/'>Ruby on Rails</a>, <a href='https://www.mongodb.com/'>MongoDB</a>, <a href='https://www.postgresql.org/'>Postgresql</a> web application. ACTUA is an <a href='https://en.wikipedia.org/wiki/IAS_19'>Actuarial Calculator for financial reporting purposes</a>. It calculates the present value of the accrued different benefits that each employee has theoterically earned to date. This app was built as an internal tool for a financial services company in Chile whose clients include the biggest airline in Latin America."+
+                    "<br><br>ACTUA improved the efficiency of the previous calculator, reducing the calculation time from ~12 hours using an Excel Macro to an hour with perfect accuracy. This new calculator can process the required information of +8,000 employees with simple configurability and selectivity. Today, ACTUA is used to perform quarterly calculations and full year forecasts."+
                     "<br><br>What is an <a href='https://en.wikipedia.org/wiki/Actuarial_science'>Actuarial</a> calculation? Each quarter companies that trade stocks have to report how much money they have provisioned for the accrued employee benefits up to date. Employees can be members of different unions, their age, time in the "+
-                    "company, gender, and position are relevant inputs for the calculation. Additionally each union can have different set of contract signed with the company, and each case can be different, they change with each collective negotiation plus regulatory and macro economic inputs change for each calculation date. On top of the inputs complexities and diversity, the calculation has to be performed in a person to person basis and a stress test has to be applied to 4 variables independently in order to aggregate 5 potential scenarios."+
-                    "<br><br>Next steps in this project it would be to build a friendly user interface. Currently, ACTUA runs using the back end tier of RoR plus a set of simple terminal commands."+
+                    "company, gender, and position are relevant inputs for the calculation. Additionally each union can have a different set of contracts signed with the company, and each case can be different: they change with each collective negotiation, plus regulatory and macro economic inputs change for each calculation date. On top of the complexity and diversity of the inputs, the calculation has to be performed on a person to person basis and a stress test has to be applied to 4 variables independently in order to aggregate 5 potential scenarios."+
+                    "<br><br>Next steps in this project would be to build a friendly user interface. Currently, ACTUA runs using the back end tier of RoR plus a set of simple terminal commands."+
                   "</p>",
         hero_img: 'img/portfolio/actua.png',
         tile_img: 'img/portfolio/actua-logo.png',
@@ -72,7 +71,7 @@ var project = new Vue({
         id:'portfolioModal2',
         title: 'Mason Bottle',
         content: "<p class='black-font'>"+
-                    "<br><br>As the lead e-commerce engineer I redesigned and developed Mason Bottle’s <a href='https://themes.shopify.com/'>Shopify store theme</a>. Using <a href='https://shopify.github.io/Timber/'>Timber</a> and <a href='https://help.shopify.com/themes/liquid'>Liquid</a> (Shopify’s template language written in Ruby) I was able give our store our own look and add customizable features."+
+                    "<br><br>As the lead e-commerce engineer, I redesigned and developed Mason Bottle’s <a href='https://themes.shopify.com/'>Shopify store theme</a>. Using <a href='https://shopify.github.io/Timber/'>Timber</a> and <a href='https://help.shopify.com/themes/liquid'>Liquid</a> (Shopify’s template language written in Ruby) I was able give our store our own look and add customizable features."+
                     "<br><br>These are a few example of the features built:"+
                     "<br><br><a href='https://github.com/masonbottle/smartPopUp'>Smart Pop Up for Optin From</a>"+
                     "<br><a href='https://github.com/masonbottle/instaShop'>Shop Our Instagram Grid</a>"+
@@ -108,7 +107,7 @@ var project = new Vue({
         id:'portfolioModal4',
         title: 'Education & Experiments',
         content: "<p class='black-font'>"+
-                  "As part of my own education and with the propose of teaching web development at <a href='https://devbootcamp.com/'>Dev Bootcamp</a> I created several code experiments, this is a short list of some interesting projects:"+
+                  "As part of my own education and with the prupose of teaching web development at <a href='https://devbootcamp.com/'>Dev Bootcamp</a>, I created several code experiments. This is a short list of some interesting projects:"+
                   "<br><br><a href='https://github.com/sebabelmar/dbc_nem_api'>MEN API</a>"+
                   "<br><a href='https://github.com/sebabelmar/mean_tweets'>MEAN Tweets</a>"+
                   "<br><a href='https://github.com/sebabelmar/DBC_closures'>Advance JS - Closures</a>"+
@@ -132,9 +131,9 @@ var project = new Vue({
         id:'portfolioModal5',
         title: 'Dribbble Passport',
         content: "<p class='black-font'>"+
-                    "In 2015 I published the <a href='http://developer.dribbble.com/'>Dribbble OAuth 2.0</a> <a href='http://passportjs.org/'>passport.js</a> strategy on <a href='https://www.npmjs.com/package/passport-dribbble'>NPM</a>. This package get downloaded hundreds of time a months."+
-                    "<br><br>Why? I wanted to contribute to what I considering the most giving and creative community in the world, the Open Source community. And this is the story: when I moved to San Francisco I spent a long season going to different Hackathons, and one of them was the Shirts.io Hackathon. My team won by turning any <a href='<a href='https://www.dribbble.comhttp://developer.dribbble.com/'>Dribbble</a> account into a shirt store. We won $5,000 worth of shirts and decided to keep working in the app. In the process Dribbble launched their <a href='http://developer.dribbble.com/'>API’s new version</a> that included OAuth 2.0 as protocol for authentication. Since we were using the MEAN stack and passport.js as authentication library I wrote the Dribbble strategy and open source it. This contribution gets downloaded a couple of times a day at least which makes me really happy."+
-                    "<br><br>We used the <a href='http://developer.dribbble.com/'>Dribbble API</a> and the <a href='https://scalablepress.com/'>ScalablePress API</a> to allow artist to easily sell their art on shirts of any size and color."+
+                    "In 2015 I published the <a href='http://developer.dribbble.com/'>Dribbble OAuth 2.0</a> <a href='http://passportjs.org/'>passport.js</a> strategy on <a href='https://www.npmjs.com/package/passport-dribbble'>NPM</a>. This package gets downloaded hundreds of times a months."+
+                    "<br><br>Why? I wanted to contribute to what I considered the most giving and creative community in the world, the Open Source community. And this is the story: when I moved to San Francisco I spent a long season going to different Hackathons, and one of them was the Shirts.io Hackathon. My team won by turning any <a href='<a href='https://www.dribbble.comhttp://developer.dribbble.com/'>Dribbble</a> account into a shirt store. We won $5,000 worth of shirts and decided to keep working in the app. In the process Dribbble launched their <a href='http://developer.dribbble.com/'>API’s new version</a> that included OAuth 2.0 as protocol for authentication. Since we were using the MEAN stack and passport.js as authentication library I wrote the Dribbble strategy and open sourced it. This contribution gets downloaded a couple of times a day at least which makes me really happy."+
+                    "<br><br>We used the <a href='http://developer.dribbble.com/'>Dribbble API</a> and the <a href='https://scalablepress.com/'>ScalablePress API</a> to allow artists to easily sell their art on shirts of any size and color."+
                   "</p>",
         hero_img: 'img/portfolio/dribbble.png',
         tile_img: 'img/portfolio/dribbble-logo.png',
