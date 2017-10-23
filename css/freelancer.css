@@ -122,6 +122,18 @@ header .intro-text .skills {
     }
 }
 
+@media(max-width:767px) {
+    .navbar-collapse {
+        background-color: black;
+    }
+
+    .navbar-toggle {
+        margin: 1px 5px 0 0 ;
+        padding: 8px 15px 0 0 ;
+        font-size: 22px;
+    }
+}
+
 @media(min-width:768px) {
     .navbar-fixed-top {
         padding: 2px 0;
@@ -199,8 +211,14 @@ section.success {
         padding-top: 75px;
     }
 
-    .navbar-nav {
+    .navbar-collapse {
         background-color: black;
+    }
+
+    .navbar-toggle {
+        margin: 1px 5px 0 0 ;
+        padding: 8px 15px 0 0 ;
+        font-size: 22px;
     }
 }
 
