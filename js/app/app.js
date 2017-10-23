@@ -153,7 +153,7 @@ var project = new Vue({
         hero_img: 'img/portfolio/g-c.png',
         tile_img: 'img/portfolio/g-c-logo.png',
         type: 'Graphic Design',
-        techs: 'Adove CS | Nikon DSLR',
+        techs: 'Adobe CS | Nikon DSLR',
         gitub_button: false,
         url: 'https://www.masonbottle.com',
         display: true
